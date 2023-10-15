@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="main_view" objectID="9F13BFF7-7D49-8604-6B69-5DD0DFED3DBC" name="" visible="false"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

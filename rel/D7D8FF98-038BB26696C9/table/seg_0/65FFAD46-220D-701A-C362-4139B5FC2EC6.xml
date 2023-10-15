@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="65FFAD46-220D-701A-C362-4139B5FC2EC6" name="smer_skolska_godina">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-09 17:06:34 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Smerovi_oznaka_smera" id="0AC461B3-95E4-B5C0-5ECB-684E95EC926E">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-09 17:08:01 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<delegate>4A8B4C1C-CCE1-9046-D0C0-C74148CF1BAE</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8920573E-67F9-138D-3CE7-817379413E74" referredColumn="4A8B4C1C-CCE1-9046-D0C0-C74148CF1BAE"/>
+</associations>
+</Column>
+<Column name="skolska_godina_id_godine" id="64BD1FD9-E409-8473-9FC9-F64DEE11E3B2">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-09 17:08:08 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<delegate>506D0CC5-3F98-F6AF-A73B-F8B5483F5367</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F09B77C-8FD3-8593-B357-1B115E65879A" referredColumn="506D0CC5-3F98-F6AF-A73B-F8B5483F5367"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E045DD2-3F2C-0F45-E396-309E729520E7" name="smer_skolska_godina_Smerovi_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-09 17:08:01 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AC461B3-95E4-B5C0-5ECB-684E95EC926E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92DE751A-B057-658E-D81D-3E78D7767263" name="smer_skolska_godina_skolska_godina_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-09 17:08:08 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64BD1FD9-E409-8473-9FC9-F64DEE11E3B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

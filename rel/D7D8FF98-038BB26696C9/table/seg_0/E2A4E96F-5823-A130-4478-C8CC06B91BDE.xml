@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E2A4E96F-5823-A130-4478-C8CC06B91BDE" name="skolska_godina">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-09 16:53:58 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_godine" id="506D0CC5-3F98-F6AF-A73B-F8B5483F5367">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-09 16:55:16 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_pocetka" id="C0786C05-8814-8C2A-75B8-6631B8688682">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-09 16:55:16 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_zavrsetka" id="7941B539-FC8E-642E-32B7-B0DBBC9FA818">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-09 16:55:16 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5C6CF635-7C15-66CB-29C9-2B3AB3F2A987" name="skolska_godina_PK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-09 16:55:16 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="506D0CC5-3F98-F6AF-A73B-F8B5483F5367"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

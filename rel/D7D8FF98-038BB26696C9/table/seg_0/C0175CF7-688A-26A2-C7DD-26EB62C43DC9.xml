@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C0175CF7-688A-26A2-C7DD-26EB62C43DC9" name="termini">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:21:17 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="C02DAE20-B6B1-AAE8-9B9D-DC35146792D0">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:37:43 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vreme_pocetka" id="78A530E5-0DA3-AD98-2C53-F68508CC486D">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:37:43 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="trajanje" id="8DF1970C-A0ED-7B79-C3EE-1C5C707C7B5F">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:37:43 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ucionice_id" id="A17C9906-A7A9-B625-46A6-00C1470D90C5">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:37:52 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>731B4B3A-9A74-C37C-4BF9-F6D037175A62</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="54C068FA-8B05-0962-7164-C5266BD872D3" referredColumn="731B4B3A-9A74-C37C-4BF9-F6D037175A62"/>
+</associations>
+</Column>
+<Column name="predmeti_id" id="28ECD9D0-F7F0-0B10-032F-133BCEA63D3E">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:39:12 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>5A851875-935D-EBF3-3A31-50ED34F1E4DE</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A4E6AD5-9D42-BFB7-250E-5088C1629051" referredColumn="5A851875-935D-EBF3-3A31-50ED34F1E4DE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3FE8F591-ECF1-2157-35E0-2456AE538951" name="Termini_PK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:40:04 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C02DAE20-B6B1-AAE8-9B9D-DC35146792D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2EFE7386-8F9E-23F6-6F6E-32FD3FEC4CCE" name="Termini_ucionice_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:37:52 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A17C9906-A7A9-B625-46A6-00C1470D90C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61254969-6001-17EE-E519-BD54FC1AF677" name="Termini_predmeti_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:39:12 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28ECD9D0-F7F0-0B10-032F-133BCEA63D3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

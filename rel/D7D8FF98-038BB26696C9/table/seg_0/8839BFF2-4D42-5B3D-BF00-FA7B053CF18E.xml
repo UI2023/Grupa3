@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8839BFF2-4D42-5B3D-BF00-FA7B053CF18E" name="smerovi">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-09 16:41:41 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="oznaka_smera" id="4A8B4C1C-CCE1-9046-D0C0-C74148CF1BAE">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-09 16:50:08 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="EE4A5BEF-F11B-A225-878F-91B7EA36928B">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-09 16:43:25 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="trajanje" id="B86E4A20-AB5C-B495-3770-4AFAECFDA437">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-09 16:43:25 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="espb" id="8D27CEE5-980A-9C49-A300-06E2B03CAE7D">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-09 16:43:25 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis" id="8A159395-09E7-88EF-0592-4CB4E87E6B81">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-09 16:48:58 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fakulteti_id" id="8E2A8EC2-9126-6A9C-7641-3B149ED2A5B1">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:07:33 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>F17B0DAB-4E62-39AF-BA55-F29FAFC5BA33</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5539E5B9-872E-0677-BDFE-CA60E62A1279" referredColumn="F17B0DAB-4E62-39AF-BA55-F29FAFC5BA33"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="53659549-9AD9-2C98-8FE9-F1B5F88EB798" name="Smerovi_PK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-09 16:43:25 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A8B4C1C-CCE1-9046-D0C0-C74148CF1BAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C6E4D8B-F4BF-7895-96CD-CDE2A0C94BBF" name="Smerovi_Fakulteti_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-09 16:46:44 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E2A8EC2-9126-6A9C-7641-3B149ED2A5B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

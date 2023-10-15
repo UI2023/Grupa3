@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E570E4A7-0BBF-35C0-AA1B-69AAD25D43A4" name="univerziteti">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-09 16:27:09 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="7B09F136-861A-98C5-6FF9-05BA22982C96">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:05:46 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PIB" id="697E69DA-4879-FD43-D39A-E6EA55DB48F1">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-09 16:33:00 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime" id="B932B8C6-32F1-AEEB-F3E8-9653149D96C9">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-09 16:33:00 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adresa" id="A93F181C-F8FC-4D41-486A-BE906710DEA7">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-09 16:33:00 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefon" id="542E9D7F-DA4B-CFB1-B8CD-2EEEA37B5062">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-09 16:33:00 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mejl" id="D58F10B9-E5AF-DA43-C7CB-9EF09C758987">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-09 16:33:00 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4EFE4C59-DA8F-00C6-1649-536BE39B4585" name="Univerziteti_PK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-09 16:33:01 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B09F136-861A-98C5-6FF9-05BA22982C96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

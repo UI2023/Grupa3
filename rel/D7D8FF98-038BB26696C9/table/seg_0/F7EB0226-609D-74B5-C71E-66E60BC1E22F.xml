@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F7EB0226-609D-74B5-C71E-66E60BC1E22F" name="skolska_godina_smestar">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-09 17:06:55 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="semestri_id_semestra" id="4635114E-C3CC-A6E3-1145-E89D35AD7163">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-09 17:08:19 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>4623B81B-D4F0-971F-462B-A1510D11184E</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A68A7802-62F4-C412-688C-01721CFBC8B8" referredColumn="4623B81B-D4F0-971F-462B-A1510D11184E"/>
+</associations>
+</Column>
+<Column name="skolska_godina_id_godine" id="22BDEBA1-1F1A-BEB8-5BA0-D7530EE81798">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-09 17:08:54 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<delegate>506D0CC5-3F98-F6AF-A73B-F8B5483F5367</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="128FC152-58A2-6FA0-7C2E-8DE90C677362" referredColumn="506D0CC5-3F98-F6AF-A73B-F8B5483F5367"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="762DEA46-ECDE-9899-16DD-019F89D98F41" name="skolska_godina_smestar_semestri_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-09 17:08:19 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4635114E-C3CC-A6E3-1145-E89D35AD7163"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23360A95-A7AC-BBA9-23E2-40BB6CA9A94D" name="skolska_godina_smestar_skolska_godina_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-09 17:08:54 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22BDEBA1-1F1A-BEB8-5BA0-D7530EE81798"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

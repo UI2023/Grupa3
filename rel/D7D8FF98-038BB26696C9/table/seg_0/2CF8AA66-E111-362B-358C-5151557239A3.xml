@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2CF8AA66-E111-362B-358C-5151557239A3" name="studenti">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:14:06 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="9AFE6E81-6EEB-2D3C-25CC-D16AC0164EAC">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:19:07 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime" id="FD3BEAA1-2E3B-1139-296C-7A429EF035D7">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:19:07 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prezime" id="5C950169-DE17-494B-8BB5-451728829FB0">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:19:07 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jmbg" id="AC7083AD-5BAC-F5B2-E9E0-9CAB0821414F">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:19:07 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adresa" id="6DC2B82C-2CB0-A9CB-A881-A6D547AA13AE">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:19:07 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mejl" id="E54A096A-C42C-5D4D-ABBE-90F7FDC5866F">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:19:07 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="broj_indeksa" id="7320923D-991D-2A4F-D202-73893B3345AF">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:19:07 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="godina_upisa" id="3A761601-E295-D6F9-E24A-35A89A9C2E17">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:19:07 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Smerovi_oznaka_smera" id="48C800BE-74D9-D0BE-AD1E-FEC0BC7F6734">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:19:52 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<delegate>4A8B4C1C-CCE1-9046-D0C0-C74148CF1BAE</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="00A90A3B-6B8F-A37A-D189-429A78D914A1" referredColumn="4A8B4C1C-CCE1-9046-D0C0-C74148CF1BAE"/>
+</associations>
+</Column>
+<Column name="studijske_grupe_id_grupe" id="44B81249-0ADA-0C20-8747-7E936F8F0F5D">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:20:17 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>08D64A4D-3908-6808-3D9A-477BC0B61B37</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E7A0AA45-E25D-C3F5-E233-CC6956305BB9" referredColumn="08D64A4D-3908-6808-3D9A-477BC0B61B37"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C72D687E-AF93-49AB-5953-B511571EF9CD" name="Studenti_PK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:19:07 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AFE6E81-6EEB-2D3C-25CC-D16AC0164EAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96C8D3AB-8589-76E8-7796-EBA0318CD011" name="Studenti_Smerovi_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:19:52 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48C800BE-74D9-D0BE-AD1E-FEC0BC7F6734"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5D1615D-E7CC-71E7-47B5-21DD0F0180A5" name="Studenti_studijske_grupe_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:20:17 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44B81249-0ADA-0C20-8747-7E936F8F0F5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F8F6DC0-D3CC-C38B-9BAD-210100E8A1F6" name="ucionice">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:21:11 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="731B4B3A-9A74-C37C-4BF9-F6D037175A62">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:28:57 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adresa" id="39976DFC-39C1-60B1-8ED4-4A2D46054789">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:31:01 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="broj_mesta" id="36C5AD61-6CD2-371D-E1BD-C1F87FBC3868">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:31:01 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fakulteti_id" id="8D28B71E-750C-6C41-50C1-EEA157148FE1">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:31:13 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>F17B0DAB-4E62-39AF-BA55-F29FAFC5BA33</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3CFF7E29-1782-99BC-C4A5-ABD030F8DFF4" referredColumn="F17B0DAB-4E62-39AF-BA55-F29FAFC5BA33"/>
+</associations>
+</Column>
+<Column name="tipovi_ucionica_id" id="97573D69-C363-19E1-2F1B-5ECB298A0933">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:33:57 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>C2A7434A-0400-B425-B76C-A814687C7B7C</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="058898D7-C59A-B856-987C-E65736AA9C2E" referredColumn="C2A7434A-0400-B425-B76C-A814687C7B7C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="65373B43-A087-4DB7-B5B6-0A676CDB0D1D" name="Rasporedi_PK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:28:57 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="731B4B3A-9A74-C37C-4BF9-F6D037175A62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FFDEA0D1-F0D3-9516-BA7B-2C7EC53C8EB2" name="ucionice_Fakulteti_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:31:13 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D28B71E-750C-6C41-50C1-EEA157148FE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9CACCDA5-9D10-3A1B-FA7E-BCF5148DC310" name="ucionice_tipovi_ucionica_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:33:57 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97573D69-C363-19E1-2F1B-5ECB298A0933"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

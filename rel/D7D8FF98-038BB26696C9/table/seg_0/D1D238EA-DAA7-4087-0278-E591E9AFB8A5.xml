@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D1D238EA-DAA7-4087-0278-E591E9AFB8A5" name="fakulteti">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-09 16:33:10 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="F17B0DAB-4E62-39AF-BA55-F29FAFC5BA33">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:07:17 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PIB" id="3AFD4C56-9E8C-D00A-4B49-A5A2062F08DC">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-09 16:36:50 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime" id="DAA473E1-10EF-ED29-D83E-D5E288D081B7">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-09 16:36:50 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adresa" id="F09C91B9-F51D-6F24-1FF4-5F891E6CFF00">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-09 16:36:50 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefon" id="4AFA3351-CE42-BF97-1783-AAE407B1F3AD">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-09 16:36:50 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="broj_racuna" id="0C073687-C16D-D35F-A183-D3B4A1DC43F9">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-09 16:36:50 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mejl" id="9D72A1CD-CF17-B8C1-26BC-0E79B6DC957A">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-09 16:36:50 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Univerziteti_id" id="DFF4F467-2C65-8348-E27A-184F7941B567">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:06:29 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>7B09F136-861A-98C5-6FF9-05BA22982C96</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="836FD183-AC31-8ED4-A8D8-1C008766A724" referredColumn="7B09F136-861A-98C5-6FF9-05BA22982C96"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A878F59-65AF-43AC-3419-D839C3526EBF" name="Fakulteti_PK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-09 16:36:50 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F17B0DAB-4E62-39AF-BA55-F29FAFC5BA33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4942531-2CE3-A094-C726-B75011754836" name="Fakulteti_Univerziteti_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:06:29 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFF4F467-2C65-8348-E27A-184F7941B567"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

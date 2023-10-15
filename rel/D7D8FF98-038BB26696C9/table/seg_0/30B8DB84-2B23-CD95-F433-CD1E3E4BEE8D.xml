@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="30B8DB84-2B23-CD95-F433-CD1E3E4BEE8D" name="predmeti">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:11:09 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="5A851875-935D-EBF3-3A31-50ED34F1E4DE">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:14:03 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="76E47E2F-9F32-8772-44BE-CEB6B4E871DF">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:14:03 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="espb" id="9D3FC147-6E9B-DE64-C579-0BE662C32502">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:14:03 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis" id="F12B5BB8-6173-517F-7962-932580669694">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:14:03 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipovi_predmeta_id" id="5F6932C7-33B2-1345-539F-C62249EBD5F9">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:23:49 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>2C09FBAA-AF94-D56E-498C-F972FA1165C6</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A3401408-6136-6E71-A417-CD843C219CF5" referredColumn="2C09FBAA-AF94-D56E-498C-F972FA1165C6"/>
+</associations>
+</Column>
+<Column name="semestri_id_semestra" id="B7049FFB-4D46-56CF-5532-6BFD69AE54EC">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:27:53 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>4623B81B-D4F0-971F-462B-A1510D11184E</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B2A532A-EED8-51D1-06F1-E96F532BEA28" referredColumn="4623B81B-D4F0-971F-462B-A1510D11184E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2542E7FA-7C96-6329-84C7-996377401C19" name="Predmeti_PK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:14:03 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A851875-935D-EBF3-3A31-50ED34F1E4DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B2032F5-EC7D-D6E2-9FCC-59E1BBC894E7" name="Predmeti_Tipovi_predmeta_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:23:49 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F6932C7-33B2-1345-539F-C62249EBD5F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="824C102A-09EC-C6FD-64B2-8A5C24A730C6" name="predmeti_semestri_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:27:53 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7049FFB-4D46-56CF-5532-6BFD69AE54EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

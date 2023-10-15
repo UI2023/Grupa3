@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="54C068FA-8B05-0962-7164-C5266BD872D3" name="Termini_ucionice_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:37:52 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<containerWithKeyObject>C0175CF7-688A-26A2-C7DD-26EB62C43DC9</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>2EFE7386-8F9E-23F6-6F6E-32FD3FEC4CCE</localFKIndex>
+<keyObject>65373B43-A087-4DB7-B5B6-0A676CDB0D1D</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

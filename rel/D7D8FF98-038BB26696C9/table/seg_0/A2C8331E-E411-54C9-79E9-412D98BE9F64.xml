@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A2C8331E-E411-54C9-79E9-412D98BE9F64" name="rasporedi">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:38:15 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="studijske_grupe_id_grupe" id="C502304E-0F5C-55F2-70E2-62BC93D61EAA">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:39:32 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>08D64A4D-3908-6808-3D9A-477BC0B61B37</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21531976-5AC9-7CE4-FB6F-CC78C6C6E21A" referredColumn="08D64A4D-3908-6808-3D9A-477BC0B61B37"/>
+</associations>
+</Column>
+<Column name="Termini_id" id="F3F5766B-CFC8-36B6-12FE-A4E43AAA3C6A">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:40:19 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>C02DAE20-B6B1-AAE8-9B9D-DC35146792D0</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="746493CA-BB68-8B06-42D2-8E56658E3F76" referredColumn="C02DAE20-B6B1-AAE8-9B9D-DC35146792D0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="49E60E5C-57EE-EB80-3E3F-C44790301CE7" name="rasporedi_studijske_grupe_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:39:32 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C502304E-0F5C-55F2-70E2-62BC93D61EAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A45A47FF-23BC-B3A7-0203-B24271EE1249" name="rasporedi_Termini_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:40:19 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3F5766B-CFC8-36B6-12FE-A4E43AAA3C6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

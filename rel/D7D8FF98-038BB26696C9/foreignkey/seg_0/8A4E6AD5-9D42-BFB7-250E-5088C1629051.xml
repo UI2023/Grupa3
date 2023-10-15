@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8A4E6AD5-9D42-BFB7-250E-5088C1629051" name="Termini_predmeti_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:39:12 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<containerWithKeyObject>C0175CF7-688A-26A2-C7DD-26EB62C43DC9</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>61254969-6001-17EE-E519-BD54FC1AF677</localFKIndex>
+<keyObject>2542E7FA-7C96-6329-84C7-996377401C19</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
