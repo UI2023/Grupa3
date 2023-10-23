@@ -1,73 +1,73 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F48326D5-77C4-93ED-0822-164E6D1FA75B" name="semestri">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="06AD1FFF-BA68-76CF-D35F-636B774349CE" name="osoblje">
 <createdBy>ivana</createdBy>
-<createdTime>2023-10-09 16:55:19 UTC</createdTime>
+<createdTime>2023-10-23 18:28:03 UTC</createdTime>
 <ownerDesignName>ui</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_semestra" id="4623B81B-D4F0-971F-462B-A1510D11184E">
+<Column name="tip_osoblja_id" id="F7818D4D-3AC7-1694-639E-FA87F722B99D">
 <createdBy>ivana</createdBy>
-<createdTime>2023-10-09 16:58:20 UTC</createdTime>
+<createdTime>2023-10-23 18:29:03 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>77213F18-5692-C100-70DD-A260C174873C</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="106C7D66-25E0-1C80-3854-EEB0543F85F6" referredColumn="77213F18-5692-C100-70DD-A260C174873C"/>
+</associations>
+</Column>
+<Column name="id" id="BF867419-038C-806A-DCC2-1F2EC6A7AB3C">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:29:41 UTC</createdTime>
 <ownerDesignName>ui</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="datum_pocetka" id="6FE00AC0-408C-3542-0EC6-53DEEA55B701">
+<Column name="ime" id="27FC5B28-6740-2027-CD50-B0B34B6F692A">
 <createdBy>ivana</createdBy>
-<createdTime>2023-10-09 16:58:20 UTC</createdTime>
-<ownerDesignName>ui</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="datum_zavrsetka" id="69312229-8D51-F83E-FDFB-D1779B1A9D76">
-<createdBy>ivana</createdBy>
-<createdTime>2023-10-09 16:58:20 UTC</createdTime>
-<ownerDesignName>ui</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="skolska_godina_id_godine" id="4A67F8B2-18FE-1C4B-2A3F-8E59D81A1E95">
-<createdBy>ivana</createdBy>
-<createdTime>2023-10-23 18:15:52 UTC</createdTime>
+<createdTime>2023-10-23 18:29:41 UTC</createdTime>
 <ownerDesignName>ui</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<delegate>506D0CC5-3F98-F6AF-A73B-F8B5483F5367</delegate>
-<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="6E964C6E-5E28-5B63-189A-D2DEC1B32B61" referredColumn="506D0CC5-3F98-F6AF-A73B-F8B5483F5367"/>
-</associations>
+</Column>
+<Column name="prezime" id="D108999B-2B32-F1D3-CF0A-DC80354D5DF6">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:29:41 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="95B14334-F9B4-A287-5FBB-F36BE355D82D" name="semestri_PK">
+<ind_PK_UK id="1A9ED739-0B7F-87A8-B143-AB593B9D4A5A" name="osoblje_PK">
 <createdBy>ivana</createdBy>
-<createdTime>2023-10-09 16:58:20 UTC</createdTime>
+<createdTime>2023-10-23 18:29:41 UTC</createdTime>
 <ownerDesignName>ui</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="4623B81B-D4F0-971F-462B-A1510D11184E"/>
+<colUsage columnID="BF867419-038C-806A-DCC2-1F2EC6A7AB3C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2AC4C51B-D651-D0A9-60CE-60F1C4DF4280" name="semestri_skolska_godina_FK">
+<ind_PK_UK id="B99FE0EF-379D-8611-F58C-7BF5DCB54E3B" name="osoblje_tip_osoblja_FK">
 <createdBy>ivana</createdBy>
-<createdTime>2023-10-23 18:15:52 UTC</createdTime>
+<createdTime>2023-10-23 18:29:03 UTC</createdTime>
 <ownerDesignName>ui</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="4A67F8B2-18FE-1C4B-2A3F-8E59D81A1E95"/>
+<colUsage columnID="F7818D4D-3AC7-1694-639E-FA87F722B99D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

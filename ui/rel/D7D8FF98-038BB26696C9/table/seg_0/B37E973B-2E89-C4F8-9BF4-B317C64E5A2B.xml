@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B37E973B-2E89-C4F8-9BF4-B317C64E5A2B" name="fakultet_osoblje">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:30:02 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fakulteti_id" id="7341DF4E-7546-BA7A-668E-8340737E73A0">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:30:27 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>F17B0DAB-4E62-39AF-BA55-F29FAFC5BA33</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4FA9243D-5399-4141-AFB2-133A997D870B" referredColumn="F17B0DAB-4E62-39AF-BA55-F29FAFC5BA33"/>
+</associations>
+</Column>
+<Column name="osoblje_id" id="0A6AF541-F0BB-CCFD-3F90-1F565114BE86">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:30:33 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>BF867419-038C-806A-DCC2-1F2EC6A7AB3C</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B05709E9-9784-147E-84CC-8AD282386758" referredColumn="BF867419-038C-806A-DCC2-1F2EC6A7AB3C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6ABBC0B2-0D49-232C-7E7C-D75427AD8935" name="fakultet_osoblje_fakulteti_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:30:27 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7341DF4E-7546-BA7A-668E-8340737E73A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A2A3F4F-2B05-A781-F8BC-518103B08C64" name="fakultet_osoblje_osoblje_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:30:33 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A6AF541-F0BB-CCFD-3F90-1F565114BE86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

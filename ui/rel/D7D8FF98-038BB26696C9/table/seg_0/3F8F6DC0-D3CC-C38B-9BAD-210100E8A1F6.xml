@@ -15,15 +15,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="adresa" id="39976DFC-39C1-60B1-8ED4-4A2D46054789">
-<createdBy>ivana</createdBy>
-<createdTime>2023-10-15 16:31:01 UTC</createdTime>
-<ownerDesignName>ui</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="broj_mesta" id="36C5AD61-6CD2-371D-E1BD-C1F87FBC3868">
 <createdBy>ivana</createdBy>
 <createdTime>2023-10-15 16:31:01 UTC</createdTime>
@@ -61,6 +52,20 @@
 <colAssociation fkAssociation="058898D7-C59A-B856-987C-E65736AA9C2E" referredColumn="C2A7434A-0400-B425-B76C-A814687C7B7C"/>
 </associations>
 </Column>
+<Column name="objekti_id" id="8FF89C76-A023-F080-0C98-EFF68CAF235C">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:20:31 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>9D5D345E-9F7B-3C7D-50CD-5C2DB75E42E8</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD6FE8A6-2630-FD0E-4B26-3DD7A0334C4E" referredColumn="9D5D345E-9F7B-3C7D-50CD-5C2DB75E42E8"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="65373B43-A087-4DB7-B5B6-0A676CDB0D1D" name="Rasporedi_PK">
@@ -92,6 +97,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="97573D69-C363-19E1-2F1B-5ECB298A0933"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23BC5A5E-BA74-6CF9-7655-DA40BA5D6204" name="ucionice_objekti_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:20:31 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FF89C76-A023-F080-0C98-EFF68CAF235C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
