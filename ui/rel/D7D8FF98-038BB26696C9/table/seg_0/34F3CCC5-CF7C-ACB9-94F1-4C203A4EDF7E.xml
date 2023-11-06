@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="34F3CCC5-CF7C-ACB9-94F1-4C203A4EDF7E" name="oprema">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:03:51 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="FB84D6BB-13AC-6B87-1FE9-5741DD29B091">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:04:35 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="303ACC20-B2E4-FBEA-5A6B-C023B83A5D71">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:04:35 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis" id="AC95DA83-096A-210A-A741-974575076661">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:04:35 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F2CA9E8D-3108-48DF-1C12-5A7660F842FB" name="oprema_PK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:04:35 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB84D6BB-13AC-6B87-1FE9-5741DD29B091"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

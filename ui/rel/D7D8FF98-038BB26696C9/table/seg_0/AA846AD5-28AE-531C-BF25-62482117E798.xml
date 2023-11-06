@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA846AD5-28AE-531C-BF25-62482117E798" name="akreditacija_fakultet">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:29:35 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="akreditacija_id" id="F1FC73F8-7C6A-089F-2944-E0494B7ED849">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:29:48 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>FFEE0BC1-848F-269A-31C3-D87A80447242</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA089CB9-A111-E8EC-BA12-5ED24BB68A54" referredColumn="FFEE0BC1-848F-269A-31C3-D87A80447242"/>
+</associations>
+</Column>
+<Column name="fakulteti_id" id="669FCCA5-CED5-DBAD-1FBA-791C8207A467">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:30:50 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>F17B0DAB-4E62-39AF-BA55-F29FAFC5BA33</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="491A5466-39A2-D9D9-0C8A-9903E51EC818" referredColumn="F17B0DAB-4E62-39AF-BA55-F29FAFC5BA33"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="47580206-2DF0-5613-6019-B2B2E051C404" name="akreditacija_fakultet_akreditacija_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:29:48 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1FC73F8-7C6A-089F-2944-E0494B7ED849"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59E0909E-4CAB-23A1-16BE-4EFB4EA8B723" name="akreditacija_fakultet_fakulteti_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:30:50 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="669FCCA5-CED5-DBAD-1FBA-791C8207A467"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7231FF3-30BA-2ABC-CF63-C86364219002" name="nenastavno_osoblje">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:28:18 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="osoblje_id" id="D51FE2F3-01FB-E689-9093-EB4E91EE5275">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:28:47 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>BF867419-038C-806A-DCC2-1F2EC6A7AB3C</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18E06939-E853-E051-1ECC-C75542AA176D" referredColumn="BF867419-038C-806A-DCC2-1F2EC6A7AB3C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="645C60E6-E782-32C1-3016-63EDBFBD91E7" name="nenastavno_osoblje_osoblje_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:28:47 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D51FE2F3-01FB-E689-9093-EB4E91EE5275"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E1A91C82-438A-C57D-30B2-4F97EB84834B" name="asistent_profesor">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:14:44 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Asistenti_id" id="408470C0-4962-13F5-F71C-F2B248C25FA5">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:15:06 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>011D1563-9265-7E2B-4839-A213122C43B3</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F42ED12B-9C98-77F6-10C2-678DFC7BE4F4" referredColumn="011D1563-9265-7E2B-4839-A213122C43B3"/>
+</associations>
+</Column>
+<Column name="profesori_id" id="095A7930-1BDB-9B63-91F5-C52AB5C56C34">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:15:11 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>CBF3580A-4D90-E7DA-A6E0-629A8C71128B</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B97E80FC-E17D-EF70-5DA1-D0C30362DE3E" referredColumn="CBF3580A-4D90-E7DA-A6E0-629A8C71128B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C4564C04-EC86-A8E7-EBCB-38B2E80AAA47" name="asistent_profesor_Asistenti_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:15:06 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="408470C0-4962-13F5-F71C-F2B248C25FA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A15F0B21-CABC-8AD0-7C6F-23F682A310E1" name="asistent_profesor_profesori_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:15:11 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="095A7930-1BDB-9B63-91F5-C52AB5C56C34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

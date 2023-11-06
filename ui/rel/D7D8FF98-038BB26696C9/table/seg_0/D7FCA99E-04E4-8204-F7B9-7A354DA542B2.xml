@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7FCA99E-04E4-8204-F7B9-7A354DA542B2" name="akreditacija_smer">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:30:17 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="smerovi_oznaka_smera" id="F0E7144A-D9AB-CEE6-D450-F13FE48C8861">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:30:40 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<delegate>4A8B4C1C-CCE1-9046-D0C0-C74148CF1BAE</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF1C9EF0-DB60-2B12-D23A-23A098C2F018" referredColumn="4A8B4C1C-CCE1-9046-D0C0-C74148CF1BAE"/>
+</associations>
+</Column>
+<Column name="akreditacija_id" id="369A93E1-B8D7-5409-6B2A-49578C83C0CA">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:30:44 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>FFEE0BC1-848F-269A-31C3-D87A80447242</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08C089FE-47E3-33BE-0D6C-480DDF15D9DE" referredColumn="FFEE0BC1-848F-269A-31C3-D87A80447242"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DFACFAFE-EB46-3A73-223B-6E45990191AD" name="akreditacija_smer_smerovi_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:30:40 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0E7144A-D9AB-CEE6-D450-F13FE48C8861"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD974597-97E2-75DE-0D63-376BF969DE71" name="akreditacija_smer_akreditacija_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:30:44 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="369A93E1-B8D7-5409-6B2A-49578C83C0CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
