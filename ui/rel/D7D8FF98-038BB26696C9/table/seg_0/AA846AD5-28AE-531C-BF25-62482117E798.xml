@@ -36,6 +36,18 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="195A709E-3ED9-CED7-2D33-50BE0680E2D7" name="akreditacija_fakultet_PK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-14 10:11:53 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1FC73F8-7C6A-089F-2944-E0494B7ED849"/>
+<colUsage columnID="669FCCA5-CED5-DBAD-1FBA-791C8207A467"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="47580206-2DF0-5613-6019-B2B2E051C404" name="akreditacija_fakultet_akreditacija_FK">
 <createdBy>ivana</createdBy>
 <createdTime>2023-11-06 15:29:48 UTC</createdTime>

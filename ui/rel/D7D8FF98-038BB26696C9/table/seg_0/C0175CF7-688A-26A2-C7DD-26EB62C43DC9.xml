@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C0175CF7-688A-26A2-C7DD-26EB62C43DC9" name="termini">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C0175CF7-688A-26A2-C7DD-26EB62C43DC9" name="planirani_termini">
 <createdBy>ivana</createdBy>
 <createdTime>2023-10-15 16:21:17 UTC</createdTime>
 <ownerDesignName>ui</ownerDesignName>
@@ -61,6 +61,20 @@
 <colAssociation fkAssociation="8A4E6AD5-9D42-BFB7-250E-5088C1629051" referredColumn="5A851875-935D-EBF3-3A31-50ED34F1E4DE"/>
 </associations>
 </Column>
+<Column name="predmet_profesor_profesori_id" id="5C3107E2-8067-840B-90AE-144EC3959D60">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-14 10:25:54 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>A2A80E70-8E5A-E604-18D1-B953B2EDE94C</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F70C80FB-D873-1FF8-D58F-8B4A5F062EBE" referredColumn="A2A80E70-8E5A-E604-18D1-B953B2EDE94C"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="3FE8F591-ECF1-2157-35E0-2456AE538951" name="Termini_PK">
@@ -92,6 +106,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="28ECD9D0-F7F0-0B10-032F-133BCEA63D3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8A2475D-2258-876F-C866-932BE49302A3" name="planirani_termini_predmet_profesor_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-14 10:25:54 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C3107E2-8067-840B-90AE-144EC3959D60"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

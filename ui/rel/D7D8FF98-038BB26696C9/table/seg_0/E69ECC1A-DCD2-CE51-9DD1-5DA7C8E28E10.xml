@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E69ECC1A-DCD2-CE51-9DD1-5DA7C8E28E10" name="predmet_semestar">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-14 10:12:58 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="predmeti_id" id="B1079BF5-E024-64DD-4056-CE7B1EC38ECF">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-14 10:13:24 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>5A851875-935D-EBF3-3A31-50ED34F1E4DE</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F652A5B-9B96-B16F-444B-2DF26429A118" referredColumn="5A851875-935D-EBF3-3A31-50ED34F1E4DE"/>
+</associations>
+</Column>
+<Column name="semestri_id_semestra" id="7D62DB40-DC5A-AB10-B908-523559594D31">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-14 10:13:29 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>4623B81B-D4F0-971F-462B-A1510D11184E</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72383ACC-0DE9-9B74-C2C8-C2CD5BB394F5" referredColumn="4623B81B-D4F0-971F-462B-A1510D11184E"/>
+</associations>
+</Column>
+<Column name="predmet_profesor_profesori_id" id="00A4BF97-9275-2897-CC1E-992387634767">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-14 10:26:38 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>A2A80E70-8E5A-E604-18D1-B953B2EDE94C</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC48126F-3442-6656-CAF3-DEE3BC4651D6" referredColumn="A2A80E70-8E5A-E604-18D1-B953B2EDE94C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E826F6A4-4369-1C75-7192-5F6C7D02C0C8" name="predmet_semestar_PK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-14 10:13:39 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1079BF5-E024-64DD-4056-CE7B1EC38ECF"/>
+<colUsage columnID="7D62DB40-DC5A-AB10-B908-523559594D31"/>
+<colUsage columnID="00A4BF97-9275-2897-CC1E-992387634767"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F4C101C-9D3B-9B4A-A41F-B2F44E73FDAF" name="predmet_semestar_predmeti_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-14 10:13:24 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1079BF5-E024-64DD-4056-CE7B1EC38ECF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3BEDC00E-14F6-989A-C731-02C2A7BF3ED8" name="predmet_semestar_semestri_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-14 10:13:29 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D62DB40-DC5A-AB10-B908-523559594D31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E8924FA-EC57-3188-78A1-B487E138C83F" name="predmet_semestar_predmet_profesor_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-14 10:26:38 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00A4BF97-9275-2897-CC1E-992387634767"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

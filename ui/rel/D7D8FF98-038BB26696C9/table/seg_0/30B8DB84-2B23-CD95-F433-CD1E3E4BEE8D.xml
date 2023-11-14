@@ -57,20 +57,6 @@
 <colAssociation fkAssociation="A3401408-6136-6E71-A417-CD843C219CF5" referredColumn="2C09FBAA-AF94-D56E-498C-F972FA1165C6"/>
 </associations>
 </Column>
-<Column name="semestri_id_semestra" id="B7049FFB-4D46-56CF-5532-6BFD69AE54EC">
-<createdBy>ivana</createdBy>
-<createdTime>2023-10-15 16:27:53 UTC</createdTime>
-<ownerDesignName>ui</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<delegate>4623B81B-D4F0-971F-462B-A1510D11184E</delegate>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="4B2A532A-EED8-51D1-06F1-E96F532BEA28" referredColumn="4623B81B-D4F0-971F-462B-A1510D11184E"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="2542E7FA-7C96-6329-84C7-996377401C19" name="Predmeti_PK">
@@ -92,16 +78,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="5F6932C7-33B2-1345-539F-C62249EBD5F9"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="824C102A-09EC-C6FD-64B2-8A5C24A730C6" name="predmeti_semestri_FK">
-<createdBy>ivana</createdBy>
-<createdTime>2023-10-15 16:27:53 UTC</createdTime>
-<ownerDesignName>ui</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="B7049FFB-4D46-56CF-5532-6BFD69AE54EC"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

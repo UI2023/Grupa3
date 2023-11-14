@@ -6,20 +6,6 @@
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="predmeti_id" id="5E0FF624-18B8-45A3-372B-91A925FE5073">
-<createdBy>ivana</createdBy>
-<createdTime>2023-11-06 15:17:10 UTC</createdTime>
-<ownerDesignName>ui</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<delegate>5A851875-935D-EBF3-3A31-50ED34F1E4DE</delegate>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="2E7B64DF-1493-4C03-A86A-7548A31CE05E" referredColumn="5A851875-935D-EBF3-3A31-50ED34F1E4DE"/>
-</associations>
-</Column>
 <Column name="profesori_id" id="A2A80E70-8E5A-E604-18D1-B953B2EDE94C">
 <createdBy>ivana</createdBy>
 <createdTime>2023-11-06 15:17:47 UTC</createdTime>
@@ -34,15 +20,6 @@
 <colAssociation fkAssociation="E3717458-5EC0-72D2-0205-83AFFDED08A8" referredColumn="CBF3580A-4D90-E7DA-A6E0-629A8C71128B"/>
 </associations>
 </Column>
-<Column name="id" id="EEB8F55A-FB76-DE24-6C41-AC1DF650C884">
-<createdBy>ivana</createdBy>
-<createdTime>2023-11-06 15:22:21 UTC</createdTime>
-<ownerDesignName>ui</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="3173DE72-F8A6-C941-2998-86381D338EA8" name="predmet_profesor_PK">
@@ -53,17 +30,7 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="EEB8F55A-FB76-DE24-6C41-AC1DF650C884"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="B919EF13-7A71-B702-799C-E4AD9D66CF7E" name="predmet_profesor_predmeti_FK">
-<createdBy>ivana</createdBy>
-<createdTime>2023-11-06 15:17:10 UTC</createdTime>
-<ownerDesignName>ui</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="5E0FF624-18B8-45A3-372B-91A925FE5073"/>
+<colUsage columnID="A2A80E70-8E5A-E604-18D1-B953B2EDE94C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="33E72BEF-D1A4-097A-4AA8-64274D380447" name="predmet_profesor_profesori_FK">

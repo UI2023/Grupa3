@@ -36,6 +36,18 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="95B435F4-81FE-9E81-84E5-E08AEE3EC39B" name="profesor_diploma_PK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-14 10:17:59 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6117D276-E965-754D-CE59-4B42D87212E8"/>
+<colUsage columnID="ACCFABFF-E085-090A-D7C9-EC5A9F180FB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="0444AAE3-13F2-722F-82CB-DC3AE25728BE" name="profesor_diploma_diplome_FK">
 <createdBy>ivana</createdBy>
 <createdTime>2023-10-23 18:36:39 UTC</createdTime>

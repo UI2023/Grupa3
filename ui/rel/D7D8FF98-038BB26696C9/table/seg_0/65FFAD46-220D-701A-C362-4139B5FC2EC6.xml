@@ -36,6 +36,18 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F3D71065-AF4B-6F21-0C1E-460375CAA98B" name="smer_skolska_godina_PK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-14 10:21:58 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AC461B3-95E4-B5C0-5ECB-684E95EC926E"/>
+<colUsage columnID="64BD1FD9-E409-8473-9FC9-F64DEE11E3B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="8E045DD2-3F2C-0F45-E396-309E729520E7" name="smer_skolska_godina_Smerovi_FK">
 <createdBy>ivana</createdBy>
 <createdTime>2023-10-09 17:08:01 UTC</createdTime>

@@ -34,48 +34,6 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="rasporedi_id" id="EF29A6CB-077C-24D4-1003-E507B519A2F6">
-<createdBy>ivana</createdBy>
-<createdTime>2023-10-23 18:25:22 UTC</createdTime>
-<ownerDesignName>ui</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<delegate>1F1A240F-13A5-4E1E-6371-69A3EE416327</delegate>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="78455672-0305-7CDC-93BC-56E421E76288" referredColumn="1F1A240F-13A5-4E1E-6371-69A3EE416327"/>
-</associations>
-</Column>
-<Column name="predmet_asistent_id" id="78B910A5-D21F-0351-38A4-764E36E36A6A">
-<createdBy>ivana</createdBy>
-<createdTime>2023-11-06 15:23:05 UTC</createdTime>
-<ownerDesignName>ui</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<delegate>45DE59C1-0C1F-7CC9-D89D-1B91D978FD28</delegate>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="49A7BFEA-625F-160E-1083-6F09F0E8F97E" referredColumn="45DE59C1-0C1F-7CC9-D89D-1B91D978FD28"/>
-</associations>
-</Column>
-<Column name="predmet_profesor_id" id="CCC0918E-E596-BE37-CE74-F780C8A3B5EC">
-<createdBy>ivana</createdBy>
-<createdTime>2023-11-06 15:23:10 UTC</createdTime>
-<ownerDesignName>ui</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<delegate>EEB8F55A-FB76-DE24-6C41-AC1DF650C884</delegate>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="D0C00D2A-5029-0573-0AE0-11529DF399D5" referredColumn="EEB8F55A-FB76-DE24-6C41-AC1DF650C884"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="739C13C8-30DA-C6DE-CE8D-B278A9322E4D" name="izvedeni_termini_PK">
@@ -89,16 +47,6 @@
 <colUsage columnID="88DFCFE6-1F3F-D27D-B081-284431B01FEC"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="61B92CF5-2CF0-950B-0C8D-EE0370B19B68" name="izvedeni_termini_rasporedi_FK">
-<createdBy>ivana</createdBy>
-<createdTime>2023-10-23 18:25:22 UTC</createdTime>
-<ownerDesignName>ui</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="EF29A6CB-077C-24D4-1003-E507B519A2F6"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="913FF23E-B7DA-D90C-EE9D-88A678D247D7" name="izvedeni_termini_termini_FK">
 <createdBy>ivana</createdBy>
 <createdTime>2023-11-06 15:03:08 UTC</createdTime>
@@ -106,25 +54,12 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 </ind_PK_UK>
-<ind_PK_UK id="6C923FF4-BEA4-EED5-21FE-64DEA43E96BE" name="izvedeni_termini_predmet_asistent_FK">
+<ind_PK_UK id="08F3B597-4FD8-F8BA-8B5D-38CB3C94C926" name="izvedeni_termini_termini_FK">
 <createdBy>ivana</createdBy>
-<createdTime>2023-11-06 15:23:05 UTC</createdTime>
+<createdTime>2023-11-14 10:09:12 UTC</createdTime>
 <ownerDesignName>ui</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="78B910A5-D21F-0351-38A4-764E36E36A6A"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="865E2B93-B775-7E28-628A-AFC018AEBB85" name="izvedeni_termini_predmet_profesor_FK">
-<createdBy>ivana</createdBy>
-<createdTime>2023-11-06 15:23:10 UTC</createdTime>
-<ownerDesignName>ui</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="CCC0918E-E596-BE37-CE74-F780C8A3B5EC"/>
-</indexColumnUsage>
 </ind_PK_UK>
 </indexes>
 </Table>

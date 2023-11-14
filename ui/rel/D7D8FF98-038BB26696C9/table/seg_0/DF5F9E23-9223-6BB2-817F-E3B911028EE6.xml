@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF5F9E23-9223-6BB2-817F-E3B911028EE6" name="ocene">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-14 10:46:10 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="F60634BC-9D2A-F443-ED29-561ED26D22C0">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-14 10:54:14 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="broj" id="9797084C-93C8-58C1-D8DF-D0B97239F329">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-14 10:54:14 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="donja_granica" id="D76A559E-EF74-D98C-EA7A-C3EC211A8CFE">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-14 10:54:14 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gornja_granica" id="0A1266AB-4A37-8965-C3B5-5387D1C41A26">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-14 10:54:14 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7AB3EAD5-2015-5BF5-CC76-6AFE35246EA9" name="ocene_PK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-14 10:54:14 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F60634BC-9D2A-F443-ED29-561ED26D22C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

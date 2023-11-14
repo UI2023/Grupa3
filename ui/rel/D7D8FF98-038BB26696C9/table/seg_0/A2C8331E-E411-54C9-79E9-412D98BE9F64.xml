@@ -29,6 +29,20 @@
 <colAssociation fkAssociation="21531976-5AC9-7CE4-FB6F-CC78C6C6E21A" referredColumn="08D64A4D-3908-6808-3D9A-477BC0B61B37"/>
 </associations>
 </Column>
+<Column name="termini_id" id="9F6476FF-77AC-0337-A71D-5319E78E1FCF">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-14 10:23:25 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>C02DAE20-B6B1-AAE8-9B9D-DC35146792D0</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="404593AE-8170-360A-4113-E79ED9B212C1" referredColumn="C02DAE20-B6B1-AAE8-9B9D-DC35146792D0"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="2771B330-009B-AF7D-CE16-BD71990E1AD2" name="rasporedi_PK">
@@ -50,6 +64,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="C502304E-0F5C-55F2-70E2-62BC93D61EAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3DF19ACE-C408-9806-100D-ECC231964D64" name="rasporedi_termini_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-14 10:23:25 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F6476FF-77AC-0337-A71D-5319E78E1FCF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
