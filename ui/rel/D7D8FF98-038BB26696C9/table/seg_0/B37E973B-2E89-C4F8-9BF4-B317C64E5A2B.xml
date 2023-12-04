@@ -34,8 +34,28 @@
 <colAssociation fkAssociation="B05709E9-9784-147E-84CC-8AD282386758" referredColumn="BF867419-038C-806A-DCC2-1F2EC6A7AB3C"/>
 </associations>
 </Column>
+<Column name="id" id="F4C32C43-678F-1B40-D257-19EC92B97C9E">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:11:57 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E92CEF1-D619-5D35-2BBA-474B1655C89B" name="fakultet_osoblje_PK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:11:57 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4C32C43-678F-1B40-D257-19EC92B97C9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="6ABBC0B2-0D49-232C-7E7C-D75427AD8935" name="fakultet_osoblje_fakulteti_FK">
 <createdBy>ivana</createdBy>
 <createdTime>2023-10-23 18:30:27 UTC</createdTime>

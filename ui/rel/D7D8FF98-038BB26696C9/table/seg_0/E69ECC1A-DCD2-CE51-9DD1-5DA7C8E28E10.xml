@@ -44,9 +44,15 @@
 <delegate>A2A80E70-8E5A-E604-18D1-B953B2EDE94C</delegate>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="EC48126F-3442-6656-CAF3-DEE3BC4651D6" referredColumn="A2A80E70-8E5A-E604-18D1-B953B2EDE94C"/>
-</associations>
+</Column>
+<Column name="id" id="FA51F6C4-3415-4B5F-50D3-3BE04BD82B82">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:02:12 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -61,6 +67,7 @@
 <colUsage columnID="B1079BF5-E024-64DD-4056-CE7B1EC38ECF"/>
 <colUsage columnID="7D62DB40-DC5A-AB10-B908-523559594D31"/>
 <colUsage columnID="00A4BF97-9275-2897-CC1E-992387634767"/>
+<colUsage columnID="FA51F6C4-3415-4B5F-50D3-3BE04BD82B82"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="9F4C101C-9D3B-9B4A-A41F-B2F44E73FDAF" name="predmet_semestar_predmeti_FK">
@@ -81,16 +88,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="7D62DB40-DC5A-AB10-B908-523559594D31"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="0E8924FA-EC57-3188-78A1-B487E138C83F" name="predmet_semestar_predmet_profesor_FK">
-<createdBy>ivana</createdBy>
-<createdTime>2023-11-14 10:26:38 UTC</createdTime>
-<ownerDesignName>ui</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="00A4BF97-9275-2897-CC1E-992387634767"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

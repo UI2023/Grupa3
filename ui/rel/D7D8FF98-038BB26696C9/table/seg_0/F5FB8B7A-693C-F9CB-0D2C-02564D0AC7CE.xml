@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5FB8B7A-693C-F9CB-0D2C-02564D0AC7CE" name="predispitne_obaveze">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:00:45 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="55765762-12D7-7575-358F-1A877266FCBF">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:01:40 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="poeni" id="3986851E-73C0-9ADD-C2F7-2EDFEF1E6F94">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:01:40 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D72630F-B3E9-C059-5F0C-7DB5E19F89BF" name="predispitne_obaveze_PK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:01:40 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55765762-12D7-7575-358F-1A877266FCBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

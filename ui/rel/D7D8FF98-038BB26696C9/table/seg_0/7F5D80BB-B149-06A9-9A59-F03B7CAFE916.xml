@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7F5D80BB-B149-06A9-9A59-F03B7CAFE916" name="Ispitni_rok">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 10:59:34 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="FB915609-4D15-D07F-3595-CE7D85F686F7">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:00:27 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_pocetka" id="737E34EF-84B2-CAAE-3431-83AE5964737A">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:00:27 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_kraja" id="F1B6B649-3D26-CE3B-5AF9-E1011530D83A">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:00:27 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="skolska_godina_id_godine" id="79F45223-B987-1C1A-96BB-D46933150E50">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:08:00 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<delegate>506D0CC5-3F98-F6AF-A73B-F8B5483F5367</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71496875-2E15-343C-D08F-014384A0FF38" referredColumn="506D0CC5-3F98-F6AF-A73B-F8B5483F5367"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5B4675A9-A998-8094-D589-B479F59FCAB4" name="Ispitni_rok_PK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:00:27 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB915609-4D15-D07F-3595-CE7D85F686F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03747294-47D6-4777-B307-8AD0725037DC" name="Ispitni_rok_skolska_godina_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:08:00 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79F45223-B987-1C1A-96BB-D46933150E50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

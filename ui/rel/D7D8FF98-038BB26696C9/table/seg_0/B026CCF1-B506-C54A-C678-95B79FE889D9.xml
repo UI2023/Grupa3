@@ -30,8 +30,33 @@
 <delegate>9AFE6E81-6EEB-2D3C-25CC-D16AC0164EAC</delegate>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prijava_ispita_id" id="5B6FABC7-C5D5-11CF-E990-02F8AACAD94B">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:07:01 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>CB6226D0-EC54-EBBA-9EA6-B99017ED957A</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="FA1646E2-8086-2E1A-A425-DA16B32D2E22" referredColumn="9AFE6E81-6EEB-2D3C-25CC-D16AC0164EAC"/>
+<colAssociation fkAssociation="AA146D2C-48D8-69C7-EEA2-A095845EAC25" referredColumn="CB6226D0-EC54-EBBA-9EA6-B99017ED957A"/>
+</associations>
+</Column>
+<Column name="student_predispitne_obaveze_id" id="1E11000E-E205-CECA-AC9A-A6742C8306F9">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:09:41 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>607CD9D4-A315-7075-F13D-0D854B55628B</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="485A32ED-B930-8DFA-A884-2BA8D9A48064" referredColumn="607CD9D4-A315-7075-F13D-0D854B55628B"/>
 </associations>
 </Column>
 </columns>
@@ -58,14 +83,24 @@
 <colUsage columnID="76374F72-60CD-DB02-DBDE-59294FCC3EA7"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="32E91A4E-373D-D701-D2A6-7886CCCFCA4F" name="student_polaganja_studenti_FK">
+<ind_PK_UK id="47EF928D-858F-9666-DC8E-AC9E8C0ED526" name="student_polaganja_prijava_ispita_FK">
 <createdBy>ivana</createdBy>
-<createdTime>2023-11-14 10:43:13 UTC</createdTime>
+<createdTime>2023-12-04 11:07:01 UTC</createdTime>
 <ownerDesignName>ui</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="72D5E4BB-CC26-28B8-448A-907163BEC677"/>
+<colUsage columnID="5B6FABC7-C5D5-11CF-E990-02F8AACAD94B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1ED82999-7514-3099-F77C-39552427691E" name="student_polaganja_student_predispitne_obaveze_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:09:41 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E11000E-E205-CECA-AC9A-A6742C8306F9"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="51A6F811-2DDF-9136-2FDE-5A98DA529FAB" name="ispiti">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="51A6F811-2DDF-9136-2FDE-5A98DA529FAB" name="ispit">
 <createdBy>ivana</createdBy>
 <createdTime>2023-11-14 10:35:11 UTC</createdTime>
 <ownerDesignName>ui</ownerDesignName>
@@ -66,6 +66,34 @@
 <colAssociation fkAssociation="CC3D4C67-459E-51A6-AF00-91981072C4AE" referredColumn="00A4BF97-9275-2897-CC1E-992387634767"/>
 </associations>
 </Column>
+<Column name="predmet_semestar_id" id="059A6915-8DFA-7189-54C9-73B44EB75D12">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:02:12 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>FA51F6C4-3415-4B5F-50D3-3BE04BD82B82</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC3D4C67-459E-51A6-AF00-91981072C4AE" referredColumn="FA51F6C4-3415-4B5F-50D3-3BE04BD82B82"/>
+</associations>
+</Column>
+<Column name="Ispitni_rok_id" id="55AB9B1E-707E-C043-E3B5-2D0B5D86027E">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:08:13 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>FB915609-4D15-D07F-3595-CE7D85F686F7</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9E07D11-54BA-54D1-50E2-DDF090258C2B" referredColumn="FB915609-4D15-D07F-3595-CE7D85F686F7"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="84193B40-2F34-7C2A-75CD-33F7DAA33CF5" name="polaganje_ispita_PK">
@@ -89,6 +117,17 @@
 <colUsage columnID="F0D88B6B-D09D-2194-A33A-E0D7BD459586"/>
 <colUsage columnID="78293251-B4DA-CDEE-331F-B6BAD785B9CD"/>
 <colUsage columnID="C20A8A8C-3AF2-CAE6-6541-073EB5EFF3B0"/>
+<colUsage columnID="059A6915-8DFA-7189-54C9-73B44EB75D12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="666BFB2D-C736-A615-5E35-63496A09C5B4" name="ispit_Ispitni_rok_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:08:13 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55AB9B1E-707E-C043-E3B5-2D0B5D86027E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
