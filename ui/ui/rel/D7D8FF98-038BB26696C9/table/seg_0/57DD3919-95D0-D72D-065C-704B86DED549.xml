@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="57DD3919-95D0-D72D-065C-704B86DED549" name="raspored_termin">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 10:45:27 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rasporedi_id" id="A87282FB-93EE-8319-7B5C-3294318D2939">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 10:46:01 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>1F1A240F-13A5-4E1E-6371-69A3EE416327</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="389CDB92-1A7A-470A-8BA9-B401556C34C9" referredColumn="1F1A240F-13A5-4E1E-6371-69A3EE416327"/>
+</associations>
+</Column>
+<Column name="planirani_termini_id" id="1C207FCB-2F62-3B69-494D-E20666716BAB">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 10:46:07 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>C02DAE20-B6B1-AAE8-9B9D-DC35146792D0</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77BE7345-95B8-A051-15E1-A04C3B8A1671" referredColumn="C02DAE20-B6B1-AAE8-9B9D-DC35146792D0"/>
+</associations>
+</Column>
+<Column name="id" id="B91E48AC-49E9-92EB-BECB-E49F9883C67E">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:11:06 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8037F5E6-2BD7-652A-BAE2-E1E6878F851E" name="raspored_termin_PK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:11:06 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B91E48AC-49E9-92EB-BECB-E49F9883C67E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD5150FD-C651-4BD9-FA6E-3866FEF324D9" name="raspored_termin_rasporedi_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 10:46:01 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A87282FB-93EE-8319-7B5C-3294318D2939"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E2B43E28-1E7E-6B0C-6794-A13ABC07583F" name="raspored_termin_planirani_termini_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 10:46:07 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C207FCB-2F62-3B69-494D-E20666716BAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

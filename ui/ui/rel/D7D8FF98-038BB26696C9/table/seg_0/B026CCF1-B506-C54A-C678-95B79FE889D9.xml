@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B026CCF1-B506-C54A-C678-95B79FE889D9" name="student_polaganja">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-14 10:42:49 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="polaganje_ispita_id" id="76374F72-60CD-DB02-DBDE-59294FCC3EA7">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-14 10:43:07 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>4901D10A-58A4-8FBB-B61B-A350157BACE0</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A36D8A1F-DD0C-C9CF-C61A-AF9B1E9B212D" referredColumn="4901D10A-58A4-8FBB-B61B-A350157BACE0"/>
+</associations>
+</Column>
+<Column name="studenti_id" id="72D5E4BB-CC26-28B8-448A-907163BEC677">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-14 10:43:13 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>9AFE6E81-6EEB-2D3C-25CC-D16AC0164EAC</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prijava_ispita_id" id="5B6FABC7-C5D5-11CF-E990-02F8AACAD94B">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:07:01 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>CB6226D0-EC54-EBBA-9EA6-B99017ED957A</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA146D2C-48D8-69C7-EEA2-A095845EAC25" referredColumn="CB6226D0-EC54-EBBA-9EA6-B99017ED957A"/>
+</associations>
+</Column>
+<Column name="student_predispitne_obaveze_id" id="1E11000E-E205-CECA-AC9A-A6742C8306F9">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:09:41 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>607CD9D4-A315-7075-F13D-0D854B55628B</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="485A32ED-B930-8DFA-A884-2BA8D9A48064" referredColumn="607CD9D4-A315-7075-F13D-0D854B55628B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9B2AD0C6-0149-514E-386F-B6BE780B875B" name="student_polaganja_PK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-14 10:43:23 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76374F72-60CD-DB02-DBDE-59294FCC3EA7"/>
+<colUsage columnID="72D5E4BB-CC26-28B8-448A-907163BEC677"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="925A9278-DD50-107E-B54C-E33560BB90A7" name="student_polaganja_polaganje_ispita_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-14 10:43:07 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76374F72-60CD-DB02-DBDE-59294FCC3EA7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="47EF928D-858F-9666-DC8E-AC9E8C0ED526" name="student_polaganja_prijava_ispita_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:07:01 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B6FABC7-C5D5-11CF-E990-02F8AACAD94B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1ED82999-7514-3099-F77C-39552427691E" name="student_polaganja_student_predispitne_obaveze_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:09:41 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E11000E-E205-CECA-AC9A-A6742C8306F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

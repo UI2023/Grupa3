@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6967383B-BDC9-BA8F-BE03-2D43A51FDF13" name="tip_knjige">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-11 20:30:31 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="BFFBBB0D-0E9C-2641-E1EE-99BF65994A36">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-11 20:31:10 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="F682F6CB-ACC4-472B-E2DB-787916626677">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-11 20:31:10 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="16649562-8B1D-69C2-E645-585CD2A11E63" name="tip_knjige_PK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-11 20:31:10 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BFFBBB0D-0E9C-2641-E1EE-99BF65994A36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

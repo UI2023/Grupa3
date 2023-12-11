@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0BE7A9D2-7F62-949B-108D-22DB8EDB2B0B" name="knjiga_predmet">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-11 20:23:40 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="42BA4FF5-D64F-4123-6E8D-4B13F65EE74B">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-11 20:24:16 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="knjiga_id" id="F1574083-2ED7-A2C0-EF90-0A820AF05D9A">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-11 20:24:39 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>371D3228-E4C1-EACF-3C73-0471DCE3E7E8</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="46F08612-BE8C-3895-C0CF-9E5DBD64C694" referredColumn="371D3228-E4C1-EACF-3C73-0471DCE3E7E8"/>
+</associations>
+</Column>
+<Column name="predmet_semestar_predmeti_id" id="3882AA86-F9F0-8742-CD05-308750FF113E">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-11 20:25:01 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>B1079BF5-E024-64DD-4056-CE7B1EC38ECF</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB49E239-F9BE-4064-2FA2-1206416D6032" referredColumn="B1079BF5-E024-64DD-4056-CE7B1EC38ECF"/>
+</associations>
+</Column>
+<Column name="predmet_semestar_semestri_id_semestra" id="9ABC6D90-EF5F-7105-2CA9-AD15FFEF29C1">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-11 20:25:01 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>7D62DB40-DC5A-AB10-B908-523559594D31</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB49E239-F9BE-4064-2FA2-1206416D6032" referredColumn="7D62DB40-DC5A-AB10-B908-523559594D31"/>
+</associations>
+</Column>
+<Column name="predmet_semestar_predmet_profesor_profesori_id" id="902562E0-5A45-9116-4C2B-7A02D3C1C8A1">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-11 20:25:01 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>00A4BF97-9275-2897-CC1E-992387634767</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB49E239-F9BE-4064-2FA2-1206416D6032" referredColumn="00A4BF97-9275-2897-CC1E-992387634767"/>
+</associations>
+</Column>
+<Column name="predmet_semestar_id" id="E0E69636-7196-DE60-AE00-403FBD0F271E">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-11 20:25:01 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>FA51F6C4-3415-4B5F-50D3-3BE04BD82B82</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB49E239-F9BE-4064-2FA2-1206416D6032" referredColumn="FA51F6C4-3415-4B5F-50D3-3BE04BD82B82"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F2230FF-A685-3057-443A-041F5950C312" name="TABLE_50_PK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-11 20:24:16 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42BA4FF5-D64F-4123-6E8D-4B13F65EE74B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="174A1B9B-7318-6CB3-11FB-4E9CB3FBB79C" name="knjiga_predmet_knjiga_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-11 20:24:39 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1574083-2ED7-A2C0-EF90-0A820AF05D9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78E94344-8429-81C4-A3D6-C5A5D8AF9B96" name="knjiga_predmet_predmet_semestar_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-11 20:25:01 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3882AA86-F9F0-8742-CD05-308750FF113E"/>
+<colUsage columnID="9ABC6D90-EF5F-7105-2CA9-AD15FFEF29C1"/>
+<colUsage columnID="902562E0-5A45-9116-4C2B-7A02D3C1C8A1"/>
+<colUsage columnID="E0E69636-7196-DE60-AE00-403FBD0F271E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

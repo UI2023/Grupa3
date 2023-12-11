@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A2C8331E-E411-54C9-79E9-412D98BE9F64" name="rasporedi">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:38:15 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="1F1A240F-13A5-4E1E-6371-69A3EE416327">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:25:13 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="studijske_grupe_id_grupe" id="C502304E-0F5C-55F2-70E2-62BC93D61EAA">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:39:32 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>08D64A4D-3908-6808-3D9A-477BC0B61B37</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21531976-5AC9-7CE4-FB6F-CC78C6C6E21A" referredColumn="08D64A4D-3908-6808-3D9A-477BC0B61B37"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2771B330-009B-AF7D-CE16-BD71990E1AD2" name="rasporedi_PK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:25:13 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F1A240F-13A5-4E1E-6371-69A3EE416327"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49E60E5C-57EE-EB80-3E3F-C44790301CE7" name="rasporedi_studijske_grupe_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:39:32 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C502304E-0F5C-55F2-70E2-62BC93D61EAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A08B62AC-B3BC-66AF-1826-0A02BEC79B6D" name="izdavac">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-11 20:27:33 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="667D0298-0F44-EB5F-59D6-B0774E2B98ED">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-11 20:28:32 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="15C25709-0127-63AA-2560-7770352563C1">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-11 20:28:32 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PIB" id="FDE86C4F-0589-F998-BD9D-91D5C7ED3A84">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-11 20:28:32 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adresa" id="765C3B81-814C-CD68-99C2-FB5E6362DDD2">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-11 20:28:32 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefon" id="78A30D62-9398-9CDF-7C0D-51B83D3D3AB6">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-11 20:28:32 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C04B5533-B00D-A183-6A77-4D4425161C49" name="izdavac_PK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-11 20:28:32 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="667D0298-0F44-EB5F-59D6-B0774E2B98ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3A6CB82B-9BA6-F117-1498-55B74A93CBB4" name="ostvarena_ocena_ocene_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-14 10:56:02 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<containerWithKeyObject>74380D1F-F6AE-7B28-1ADE-67E9F21904DB</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>43D724A4-87EC-252B-B161-DF6DB970B25A</localFKIndex>
+<keyObject>7AB3EAD5-2015-5BF5-CC76-6AFE35246EA9</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B06A6AE6-43CB-2F48-D7F5-6080A2473EBB" name="diplome">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:34:21 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="464B7CD7-C3F2-30CD-40B5-F8872D23F942">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:35:20 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="CB3EA2A4-2232-A04A-45EA-4B86A043AA81">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:35:20 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="godina_dobijanja" id="3E04D3E3-D783-398F-44D4-6816DE87D980">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:35:20 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titula" id="C0C89E81-F6BE-7FFA-48E8-80CA41007AA2">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:35:20 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tip_diplome_id" id="FECFFD48-6A9D-100A-DCFB-41A797847B53">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:36:33 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>BACBF8ED-DDBC-D831-4270-9917B3165459</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="43AD1B16-3BF4-A55A-323E-C6B9C670B80A" referredColumn="BACBF8ED-DDBC-D831-4270-9917B3165459"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E2B51FDA-9272-4F8F-B662-5FBBDA3B6096" name="diplome_PK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:35:20 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="464B7CD7-C3F2-30CD-40B5-F8872D23F942"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A910611-61E4-940F-AEE5-2C977AAFEF8A" name="diplome_tip_diplome_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:36:33 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FECFFD48-6A9D-100A-DCFB-41A797847B53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

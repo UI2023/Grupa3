@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AC7D6D8C-BBEF-C881-D14C-F83F2F127C9C" name="predmet_asistent">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:16:42 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Asistenti_id" id="10EEB432-F769-7BE7-4A22-07A1F3BE3115">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:17:41 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>011D1563-9265-7E2B-4839-A213122C43B3</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A01F3CE-81C8-3173-8FAE-F24A7191C57F" referredColumn="011D1563-9265-7E2B-4839-A213122C43B3"/>
+</associations>
+</Column>
+<Column name="predmeti_id" id="400D3175-20DB-60E9-2731-CF5E6878B382">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 10:49:37 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>5A851875-935D-EBF3-3A31-50ED34F1E4DE</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C99278E-FCAC-5E81-77AA-1EC513A7D0CB" referredColumn="5A851875-935D-EBF3-3A31-50ED34F1E4DE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4B080C9B-1C8D-D642-DFD6-898807ED1F1F" name="predmet_asistent_PK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:22:36 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10EEB432-F769-7BE7-4A22-07A1F3BE3115"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="628A9840-A89A-8434-847C-858E49502D89" name="predmet_asistent_Asistenti_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:17:41 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10EEB432-F769-7BE7-4A22-07A1F3BE3115"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F978B292-CD75-F38C-6A2D-CDF9653DC0E0" name="predmet_asistent_predmeti_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 10:49:37 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="400D3175-20DB-60E9-2731-CF5E6878B382"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

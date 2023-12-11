@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DF1C9EF0-DB60-2B12-D23A-23A098C2F018" name="akreditacija_smer_smerovi_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:30:39 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<containerWithKeyObject>D7FCA99E-04E4-8204-F7B9-7A354DA542B2</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>DFACFAFE-EB46-3A73-223B-6E45990191AD</localFKIndex>
+<keyObject>53659549-9AD9-2C98-8FE9-F1B5F88EB798</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

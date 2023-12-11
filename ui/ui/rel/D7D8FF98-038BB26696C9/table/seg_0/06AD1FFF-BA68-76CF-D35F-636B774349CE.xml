@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="06AD1FFF-BA68-76CF-D35F-636B774349CE" name="osoblje">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:28:03 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tip_osoblja_id" id="F7818D4D-3AC7-1694-639E-FA87F722B99D">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:29:03 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>77213F18-5692-C100-70DD-A260C174873C</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="106C7D66-25E0-1C80-3854-EEB0543F85F6" referredColumn="77213F18-5692-C100-70DD-A260C174873C"/>
+</associations>
+</Column>
+<Column name="id" id="BF867419-038C-806A-DCC2-1F2EC6A7AB3C">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:29:41 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime" id="27FC5B28-6740-2027-CD50-B0B34B6F692A">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:29:41 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prezime" id="D108999B-2B32-F1D3-CF0A-DC80354D5DF6">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:29:41 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1A9ED739-0B7F-87A8-B143-AB593B9D4A5A" name="osoblje_PK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:29:41 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF867419-038C-806A-DCC2-1F2EC6A7AB3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B99FE0EF-379D-8611-F58C-7BF5DCB54E3B" name="osoblje_tip_osoblja_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:29:03 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7818D4D-3AC7-1694-639E-FA87F722B99D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

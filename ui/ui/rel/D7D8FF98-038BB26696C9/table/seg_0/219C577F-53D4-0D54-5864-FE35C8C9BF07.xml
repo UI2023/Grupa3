@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="219C577F-53D4-0D54-5864-FE35C8C9BF07" name="poslovni_objekat">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:17:40 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="9D5D345E-9F7B-3C7D-50CD-5C2DB75E42E8">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:19:02 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adresa" id="CB88ED4A-729E-A0C6-AC03-214CBC9EB05A">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:19:02 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tip_objekta_id" id="0877A8B3-89F6-38FC-384A-2F6A2C41A2FC">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:19:54 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>99714D9B-7112-806C-6688-91FC93C25C8F</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A734E1B-DCF6-98B9-3832-3848D68BFFF1" referredColumn="99714D9B-7112-806C-6688-91FC93C25C8F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1B1ADEA2-4930-5EA9-31A6-37E13FCE2439" name="objekti_PK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:19:02 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D5D345E-9F7B-3C7D-50CD-5C2DB75E42E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1D6987C-1754-970C-9726-9F725284AC84" name="objekti_tip_objekta_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:19:54 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0877A8B3-89F6-38FC-384A-2F6A2C41A2FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

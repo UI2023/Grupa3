@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7466554F-517D-3A11-BE5C-73C8179EFF41" name="profesori">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:31:33 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="CBF3580A-4D90-E7DA-A6E0-629A8C71128B">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:32:21 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titula" id="F15C24E2-2F7F-0D92-B534-BF44B80FDB59">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:32:21 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="osoblje_id" id="E7A01D23-940A-3C5F-BD4B-ABECFF74A262">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:34:06 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>BF867419-038C-806A-DCC2-1F2EC6A7AB3C</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A132D54-8D25-E744-FC42-ABEDE82F839A" referredColumn="BF867419-038C-806A-DCC2-1F2EC6A7AB3C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="65B26855-53DA-2ABF-41C0-CE3BDF4A666E" name="profesori_PK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:32:21 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBF3580A-4D90-E7DA-A6E0-629A8C71128B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45712946-FDA4-128C-1246-66E3830910DA" name="profesori_osoblje_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:34:06 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7A01D23-940A-3C5F-BD4B-ABECFF74A262"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

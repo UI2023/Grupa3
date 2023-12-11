@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="16636A34-E527-3C04-6DAB-06BCB43DA3B9" name="ucionica_oprema">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:04:37 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ucionice_id" id="2CC34024-9946-07FD-08D5-88CD216B7211">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:04:55 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>731B4B3A-9A74-C37C-4BF9-F6D037175A62</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FFEFF45F-814B-AAD7-6F3A-3F7CB90672F1" referredColumn="731B4B3A-9A74-C37C-4BF9-F6D037175A62"/>
+</associations>
+</Column>
+<Column name="oprema_id" id="BBC1068F-5F1E-635D-A4AF-355DDD383B50">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:05:01 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>FB84D6BB-13AC-6B87-1FE9-5741DD29B091</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D69895F7-F7D0-D6FF-5471-CD483BF9776A" referredColumn="FB84D6BB-13AC-6B87-1FE9-5741DD29B091"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4DD0E83B-5843-A2E4-A7A3-98C45404B199" name="ucionica_oprema_PK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-14 10:11:36 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CC34024-9946-07FD-08D5-88CD216B7211"/>
+<colUsage columnID="BBC1068F-5F1E-635D-A4AF-355DDD383B50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="895B8FA6-25E8-4FE9-6403-5262E6CCDB94" name="ucionica_oprema_ucionice_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:04:55 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CC34024-9946-07FD-08D5-88CD216B7211"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D3E056D-2564-A537-935F-E7109E89655C" name="ucionica_oprema_oprema_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:05:01 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBC1068F-5F1E-635D-A4AF-355DDD383B50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

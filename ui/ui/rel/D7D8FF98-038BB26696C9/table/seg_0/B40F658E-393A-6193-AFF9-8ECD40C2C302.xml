@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B40F658E-393A-6193-AFF9-8ECD40C2C302" name="semestralni_profesor">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 10:50:11 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="predmet_semestar_predmeti_id" id="E7568D21-3564-88F9-4BD6-B1AC9E7CA5B2">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 10:50:33 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>B1079BF5-E024-64DD-4056-CE7B1EC38ECF</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E211300B-E95C-129A-DB83-E7BB677AC183" referredColumn="B1079BF5-E024-64DD-4056-CE7B1EC38ECF"/>
+</associations>
+</Column>
+<Column name="predmet_semestar_semestri_id_semestra" id="E1C03D78-A328-F480-C8CA-99C7D21FC439">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 10:50:33 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>7D62DB40-DC5A-AB10-B908-523559594D31</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E211300B-E95C-129A-DB83-E7BB677AC183" referredColumn="7D62DB40-DC5A-AB10-B908-523559594D31"/>
+</associations>
+</Column>
+<Column name="predmet_semestar_predmet_profesor_profesori_id" id="D28D5282-C2CC-9D7A-BDC7-6EBD4660BCD3">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 10:50:33 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>00A4BF97-9275-2897-CC1E-992387634767</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E211300B-E95C-129A-DB83-E7BB677AC183" referredColumn="00A4BF97-9275-2897-CC1E-992387634767"/>
+</associations>
+</Column>
+<Column name="profesori_id" id="AB0F1759-9DA8-61FD-109C-23FAE0DB39EE">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 10:50:45 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>CBF3580A-4D90-E7DA-A6E0-629A8C71128B</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5DF2173F-E279-8D28-4B62-C82708DAFF2F" referredColumn="CBF3580A-4D90-E7DA-A6E0-629A8C71128B"/>
+</associations>
+</Column>
+<Column name="id" id="8EF90B75-0451-3F4E-5ED9-76B0C8F66307">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 10:58:05 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="predmet_semestar_id" id="8826FE19-F500-8596-012B-DBE0B1A4852C">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:02:12 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>FA51F6C4-3415-4B5F-50D3-3BE04BD82B82</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E211300B-E95C-129A-DB83-E7BB677AC183" referredColumn="FA51F6C4-3415-4B5F-50D3-3BE04BD82B82"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FA6FC073-22AB-B4E2-208A-66242BEA1829" name="semestralni_profesor_PK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 10:58:05 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EF90B75-0451-3F4E-5ED9-76B0C8F66307"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B80226EC-FB53-7840-783F-05AEE603D0B7" name="semestralni_profesor_predmet_semestar_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 10:50:33 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7568D21-3564-88F9-4BD6-B1AC9E7CA5B2"/>
+<colUsage columnID="E1C03D78-A328-F480-C8CA-99C7D21FC439"/>
+<colUsage columnID="D28D5282-C2CC-9D7A-BDC7-6EBD4660BCD3"/>
+<colUsage columnID="8826FE19-F500-8596-012B-DBE0B1A4852C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CEE9C601-430F-9A68-A61A-2A24D6740D12" name="semestralni_profesor_profesori_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 10:50:45 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB0F1759-9DA8-61FD-109C-23FAE0DB39EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

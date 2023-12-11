@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="302F5059-8C5A-8EC9-95EE-9578A931F87D" name="student_predispitne_obaveze">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:03:23 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="607CD9D4-A315-7075-F13D-0D854B55628B">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:03:48 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="studenti_id" id="186EF368-7BB4-5359-FDDD-AADDC11B6BEF">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:03:55 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>9AFE6E81-6EEB-2D3C-25CC-D16AC0164EAC</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F2F82622-4BEB-1422-67AE-1924657B777C" referredColumn="9AFE6E81-6EEB-2D3C-25CC-D16AC0164EAC"/>
+</associations>
+</Column>
+<Column name="predmet_semestar_predmeti_id" id="E97DD3A4-C25C-47E7-9C8E-888820C6EE31">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:04:02 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>B1079BF5-E024-64DD-4056-CE7B1EC38ECF</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7B3A7EF-5F9B-9BBF-B8D1-4FBE35B79294" referredColumn="B1079BF5-E024-64DD-4056-CE7B1EC38ECF"/>
+</associations>
+</Column>
+<Column name="predmet_semestar_semestri_id_semestra" id="41E51EC0-EA4F-BE81-7693-8BB54A8A79B0">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:04:02 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>7D62DB40-DC5A-AB10-B908-523559594D31</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7B3A7EF-5F9B-9BBF-B8D1-4FBE35B79294" referredColumn="7D62DB40-DC5A-AB10-B908-523559594D31"/>
+</associations>
+</Column>
+<Column name="predmet_semestar_predmet_profesor_profesori_id" id="F48F525A-9EA4-F400-7E96-7C7FA7284091">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:04:02 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>00A4BF97-9275-2897-CC1E-992387634767</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7B3A7EF-5F9B-9BBF-B8D1-4FBE35B79294" referredColumn="00A4BF97-9275-2897-CC1E-992387634767"/>
+</associations>
+</Column>
+<Column name="predmet_semestar_id" id="A74C28D1-6C06-C62B-0B32-005B4C5D64AF">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:04:02 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>FA51F6C4-3415-4B5F-50D3-3BE04BD82B82</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7B3A7EF-5F9B-9BBF-B8D1-4FBE35B79294" referredColumn="FA51F6C4-3415-4B5F-50D3-3BE04BD82B82"/>
+</associations>
+</Column>
+<Column name="predispitne_obaveze_id" id="E2C2D8AB-18DE-1F1E-3AE9-EFBE39394FF1">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:04:07 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>55765762-12D7-7575-358F-1A877266FCBF</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="83F96D1E-4670-13B1-B3A1-A615D64B2B84" referredColumn="55765762-12D7-7575-358F-1A877266FCBF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="480B748E-A266-9437-FF82-81A3E4FB2C06" name="student_predispitne_obaveze_PK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:03:48 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="607CD9D4-A315-7075-F13D-0D854B55628B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F2D96CB-6328-810A-FC56-FF822D5F4667" name="student_predispitne_obaveze_studenti_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:03:55 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="186EF368-7BB4-5359-FDDD-AADDC11B6BEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8EC9C14B-9F5A-2900-B110-12D84594DF4B" name="student_predispitne_obaveze_predmet_semestar_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:04:02 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E97DD3A4-C25C-47E7-9C8E-888820C6EE31"/>
+<colUsage columnID="41E51EC0-EA4F-BE81-7693-8BB54A8A79B0"/>
+<colUsage columnID="F48F525A-9EA4-F400-7E96-7C7FA7284091"/>
+<colUsage columnID="A74C28D1-6C06-C62B-0B32-005B4C5D64AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E5F8AD7F-8431-CABB-872C-D17DB8346586" name="student_predispitne_obaveze_predispitne_obaveze_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:04:07 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2C2D8AB-18DE-1F1E-3AE9-EFBE39394FF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

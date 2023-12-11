@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FD77136C-751C-41FA-AA1E-46E18BCC9608" name="prijava_ispita">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:05:13 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="CB6226D0-EC54-EBBA-9EA6-B99017ED957A">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:05:43 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="studenti_id" id="35C1997F-7605-D7D2-FE95-330AF8E8ABEE">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:06:25 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>9AFE6E81-6EEB-2D3C-25CC-D16AC0164EAC</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F67ABE49-77FF-1F67-35DA-855974E3EFA6" referredColumn="9AFE6E81-6EEB-2D3C-25CC-D16AC0164EAC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="16CF5B78-3DBA-3E2B-D851-276302D71080" name="prijava_ispita_PK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:06:56 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB6226D0-EC54-EBBA-9EA6-B99017ED957A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B1DF432-BD41-DB32-9B6E-24249961BDB2" name="prijava_ispita_studenti_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 11:06:25 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35C1997F-7605-D7D2-FE95-330AF8E8ABEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

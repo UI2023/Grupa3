@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A3401408-6136-6E71-A417-CD843C219CF5" name="Predmeti_Tipovi_predmeta_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-15 16:23:49 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<containerWithKeyObject>30B8DB84-2B23-CD95-F433-CD1E3E4BEE8D</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>7B2032F5-EC7D-D6E2-9FCC-59E1BBC894E7</localFKIndex>
+<keyObject>7EE2410F-5BCF-273B-E8E8-5B3C91AC9E00</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

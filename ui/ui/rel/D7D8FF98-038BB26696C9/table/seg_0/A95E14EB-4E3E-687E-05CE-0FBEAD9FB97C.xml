@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A95E14EB-4E3E-687E-05CE-0FBEAD9FB97C" name="akreditacija">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:26:52 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="FFEE0BC1-848F-269A-31C3-D87A80447242">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:28:03 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="0F33260F-58F6-ED2B-EA42-4F1FDE7D6F02">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:28:03 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_od" id="7FFA9CA0-0B42-1624-4078-4EAEF50FBBD2">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:28:03 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_zavrsetka" id="A974DCE5-86FF-46EE-B00A-AD8E4B1DBAEC">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:28:03 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis" id="D70C6088-D8A0-45B5-8DA6-A9BF5C111195">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:28:03 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CF7FC795-C363-7C16-8E79-24E77F305EF6" name="akreditacija_PK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:28:03 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFEE0BC1-848F-269A-31C3-D87A80447242"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

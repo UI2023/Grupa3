@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B7F14C14-94BE-A8EB-FB9C-4DB5633C94FE" name="profesor_diploma">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:36:06 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="diplome_id" id="6117D276-E965-754D-CE59-4B42D87212E8">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:36:39 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>464B7CD7-C3F2-30CD-40B5-F8872D23F942</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="763481D4-12CC-5FB7-9AD9-C9D139EBD8F7" referredColumn="464B7CD7-C3F2-30CD-40B5-F8872D23F942"/>
+</associations>
+</Column>
+<Column name="profesori_id" id="ACCFABFF-E085-090A-D7C9-EC5A9F180FB2">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:36:45 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>CBF3580A-4D90-E7DA-A6E0-629A8C71128B</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C250F905-21F9-0D30-D92C-C4FC599B5033" referredColumn="CBF3580A-4D90-E7DA-A6E0-629A8C71128B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="95B435F4-81FE-9E81-84E5-E08AEE3EC39B" name="profesor_diploma_PK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-14 10:17:59 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6117D276-E965-754D-CE59-4B42D87212E8"/>
+<colUsage columnID="ACCFABFF-E085-090A-D7C9-EC5A9F180FB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0444AAE3-13F2-722F-82CB-DC3AE25728BE" name="profesor_diploma_diplome_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:36:39 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6117D276-E965-754D-CE59-4B42D87212E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8153748-8EE4-3158-371F-0FD92B491C50" name="profesor_diploma_profesori_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:36:45 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACCFABFF-E085-090A-D7C9-EC5A9F180FB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

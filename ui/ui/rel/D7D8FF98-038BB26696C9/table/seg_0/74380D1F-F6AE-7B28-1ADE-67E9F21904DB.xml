@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="74380D1F-F6AE-7B28-1ADE-67E9F21904DB" name="ostvarena_ocena">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-14 10:55:36 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="student_polaganja_polaganje_ispita_id" id="A8DD90A1-FF37-B46F-5D31-3827C66934BE">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-14 10:55:54 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>76374F72-60CD-DB02-DBDE-59294FCC3EA7</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9331744-ED78-B2E9-1FEC-A0C97DD0215C" referredColumn="76374F72-60CD-DB02-DBDE-59294FCC3EA7"/>
+</associations>
+</Column>
+<Column name="student_polaganja_studenti_id" id="9296D360-C225-9D37-EEAE-1C8280D912E8">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-14 10:55:54 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>72D5E4BB-CC26-28B8-448A-907163BEC677</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9331744-ED78-B2E9-1FEC-A0C97DD0215C" referredColumn="72D5E4BB-CC26-28B8-448A-907163BEC677"/>
+</associations>
+</Column>
+<Column name="ocene_id" id="6867065D-D034-2A78-4D2E-81A6697DB78E">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-14 10:56:02 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>F60634BC-9D2A-F443-ED29-561ED26D22C0</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A6CB82B-9BA6-F117-1498-55B74A93CBB4" referredColumn="F60634BC-9D2A-F443-ED29-561ED26D22C0"/>
+</associations>
+</Column>
+<Column name="ostvareni_poeni" id="3A8EF12F-8C81-C51E-88AD-7FE0CC846C8D">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-14 10:56:28 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A05103BE-3E4D-BA10-FFCC-4CCF05AEA1EB" name="ostvarena_ocena_PK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-14 10:56:28 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8DD90A1-FF37-B46F-5D31-3827C66934BE"/>
+<colUsage columnID="9296D360-C225-9D37-EEAE-1C8280D912E8"/>
+<colUsage columnID="6867065D-D034-2A78-4D2E-81A6697DB78E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="843BD73E-9E78-B456-8E04-489141FF3A6B" name="ostvarena_ocena_student_polaganja_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-14 10:55:54 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8DD90A1-FF37-B46F-5D31-3827C66934BE"/>
+<colUsage columnID="9296D360-C225-9D37-EEAE-1C8280D912E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43D724A4-87EC-252B-B161-DF6DB970B25A" name="ostvarena_ocena_ocene_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-14 10:56:02 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6867065D-D034-2A78-4D2E-81A6697DB78E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

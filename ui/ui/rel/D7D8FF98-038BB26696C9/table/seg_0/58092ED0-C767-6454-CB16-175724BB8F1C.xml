@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="58092ED0-C767-6454-CB16-175724BB8F1C" name="knjiga_izdavac">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-11 20:28:43 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="DEFF2EE6-0913-488F-741C-D54412FC076F">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-11 20:29:09 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="knjiga_id" id="808E3CDF-7DB7-D826-F1BC-335248D67045">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-11 20:29:16 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>371D3228-E4C1-EACF-3C73-0471DCE3E7E8</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D2FA11A5-29CE-3CCE-C912-E0A3DC0EDFBC" referredColumn="371D3228-E4C1-EACF-3C73-0471DCE3E7E8"/>
+</associations>
+</Column>
+<Column name="izdavac_id" id="3B91B646-C391-586D-9414-96B23077BC73">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-11 20:29:20 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>667D0298-0F44-EB5F-59D6-B0774E2B98ED</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C49885FE-6D80-BF89-9F01-387D90823298" referredColumn="667D0298-0F44-EB5F-59D6-B0774E2B98ED"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A0C7726B-EA17-F4E1-6369-2F09EC695D1A" name="knjiga_izdavac_PK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-11 20:29:09 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DEFF2EE6-0913-488F-741C-D54412FC076F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8AFF73B4-E59E-2E4A-8A78-0E2FF5858449" name="knjiga_izdavac_knjiga_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-11 20:29:16 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="808E3CDF-7DB7-D826-F1BC-335248D67045"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8F33C9B-7A24-2384-A292-A868AA8EBE2E" name="knjiga_izdavac_izdavac_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-11 20:29:20 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B91B646-C391-586D-9414-96B23077BC73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3B6CBBCD-E708-6EB9-DB72-FB450C713951" name="izvedeni_termini">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:21:41 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="88DFCFE6-1F3F-D27D-B081-284431B01FEC">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:22:25 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum" id="DB2FC40F-DE22-0E69-1AEB-6E41611F86CC">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:23:23 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="termini_id" id="407C4EBF-E682-49EC-D894-900A4A9817D8">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:24:21 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="739C13C8-30DA-C6DE-CE8D-B278A9322E4D" name="izvedeni_termini_PK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-10-23 18:23:23 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88DFCFE6-1F3F-D27D-B081-284431B01FEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="913FF23E-B7DA-D90C-EE9D-88A678D247D7" name="izvedeni_termini_termini_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-06 15:03:08 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="08F3B597-4FD8-F8BA-8B5D-38CB3C94C926" name="izvedeni_termini_termini_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-11-14 10:09:12 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="D50354EC-D29E-3030-4538-E39C7140C96A" name="izvedeni_termini_termini_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-04 10:43:02 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>
