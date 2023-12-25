@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A48962D-F8AE-B519-1DBF-C1F3E37C9939" name="plata">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-25 13:03:42 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="14EC0BEB-A04B-EB4A-A1FC-24D7829A3137">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-25 13:04:50 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="iznos" id="92547E05-AD3D-95C6-E315-AA0B756E733E">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-25 13:04:50 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_isplate" id="461A07EB-50CC-23F8-5B0E-6913A9DC5E0C">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-25 13:04:50 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="osoblje_id" id="DBF2F5EF-C6CD-739A-9443-E7C29554A0C9">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-25 13:05:03 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>BF867419-038C-806A-DCC2-1F2EC6A7AB3C</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C6A96E27-3378-44B5-4A17-E822E0D7F891" referredColumn="BF867419-038C-806A-DCC2-1F2EC6A7AB3C"/>
+</associations>
+</Column>
+<Column name="finansije_id" id="5F95059D-2F32-52EC-EC58-B444C8ABA03E">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-25 13:05:11 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>4AD071DD-A940-0630-E761-AE6C0FE7890A</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8821BB17-73C0-B4E7-6BD4-DE1F29978BBB" referredColumn="4AD071DD-A940-0630-E761-AE6C0FE7890A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2C0183FD-9B2A-4995-56A6-D525865CA4A0" name="plata_PK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-25 13:04:50 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14EC0BEB-A04B-EB4A-A1FC-24D7829A3137"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C649FE9A-C89D-3E8D-D2EC-2A90FD47A95E" name="plata_osoblje_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-25 13:05:03 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBF2F5EF-C6CD-739A-9443-E7C29554A0C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FFC41747-D0FD-9D38-EAB2-C00BF8ACD6D4" name="plata_finansije_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-25 13:05:11 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F95059D-2F32-52EC-EC58-B444C8ABA03E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

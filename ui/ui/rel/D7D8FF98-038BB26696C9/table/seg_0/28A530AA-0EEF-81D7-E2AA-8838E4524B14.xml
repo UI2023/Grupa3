@@ -1,79 +1,79 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9472DF1D-282E-3934-D7C5-992D02ADECB9" name="autor_knjiga">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28A530AA-0EEF-81D7-E2AA-8838E4524B14" name="citaonica_sekcija">
 <createdBy>ivana</createdBy>
-<createdTime>2023-12-11 20:26:45 UTC</createdTime>
+<createdTime>2023-12-25 12:50:37 UTC</createdTime>
 <ownerDesignName>ui</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="C046939A-5EF9-792C-237E-3512C071A150">
+<Column name="id" id="AF372598-87F2-2488-88FC-D2BEEBC35FD4">
 <createdBy>ivana</createdBy>
-<createdTime>2023-12-11 20:27:06 UTC</createdTime>
+<createdTime>2023-12-25 12:50:54 UTC</createdTime>
 <ownerDesignName>ui</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="knjiga_id" id="B9BE6755-DE12-76FC-6EFB-CE46E3BD4E4A">
+<Column name="citaonice_id" id="6BB24F00-C4F0-BE4D-A380-59F028C64566">
 <createdBy>ivana</createdBy>
-<createdTime>2023-12-11 20:27:13 UTC</createdTime>
+<createdTime>2023-12-25 12:51:00 UTC</createdTime>
 <ownerDesignName>ui</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
-<delegate>371D3228-E4C1-EACF-3C73-0471DCE3E7E8</delegate>
+<delegate>539670DC-5F5C-156E-A126-5A2BCDFE0ED1</delegate>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="CC5369CF-388D-C674-F63E-C773431BB848" referredColumn="371D3228-E4C1-EACF-3C73-0471DCE3E7E8"/>
+<colAssociation fkAssociation="AC542AC6-83E4-3923-384A-F00DF5F836EE" referredColumn="539670DC-5F5C-156E-A126-5A2BCDFE0ED1"/>
 </associations>
 </Column>
-<Column name="autor_id" id="2561757C-82EA-1E79-F058-6F4F0BDFDA16">
+<Column name="sekcije_id" id="804815C8-2F91-3A7B-8FE9-0B68A6CE9FD1">
 <createdBy>ivana</createdBy>
-<createdTime>2023-12-11 20:27:18 UTC</createdTime>
+<createdTime>2023-12-25 12:51:04 UTC</createdTime>
 <ownerDesignName>ui</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
-<delegate>A0AB1573-7D8B-75DB-3E0C-F7D423BB3614</delegate>
+<delegate>77A636D3-A9C9-1919-1E63-33F7D5559CD4</delegate>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="BE284FCB-4FC3-967F-0019-6D65F26400B8" referredColumn="A0AB1573-7D8B-75DB-3E0C-F7D423BB3614"/>
+<colAssociation fkAssociation="C3D44F0B-8CBD-4800-D918-1A2A4C33DE1C" referredColumn="77A636D3-A9C9-1919-1E63-33F7D5559CD4"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="F228B2C4-D909-F328-7CB1-B33B43FACEF0" name="autor_knjiga_PK">
+<ind_PK_UK id="40821AD2-D3D8-0930-ABC7-3409E5FED9BF" name="citaonica_sekcija_PK">
 <createdBy>ivana</createdBy>
-<createdTime>2023-12-11 20:27:06 UTC</createdTime>
+<createdTime>2023-12-25 12:50:54 UTC</createdTime>
 <ownerDesignName>ui</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C046939A-5EF9-792C-237E-3512C071A150"/>
+<colUsage columnID="AF372598-87F2-2488-88FC-D2BEEBC35FD4"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="F2ED7503-06A4-5BCE-1973-CD088096EA31" name="autor_knjiga_autor_FK">
+<ind_PK_UK id="7416DC44-8B0A-3956-8D3F-5ADC92C7F1BF" name="citaonica_sekcija_citaonice_FK">
 <createdBy>ivana</createdBy>
-<createdTime>2023-12-11 20:27:18 UTC</createdTime>
+<createdTime>2023-12-25 12:51:00 UTC</createdTime>
 <ownerDesignName>ui</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="2561757C-82EA-1E79-F058-6F4F0BDFDA16"/>
+<colUsage columnID="6BB24F00-C4F0-BE4D-A380-59F028C64566"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D1598FA8-0A2E-AE3C-B4DC-2826AA32ECD6" name="autor_knjiga_knjiga_FK">
+<ind_PK_UK id="D9925C31-C0A1-72D6-A1A3-16EE8301CC19" name="citaonica_sekcija_sekcije_FK">
 <createdBy>ivana</createdBy>
-<createdTime>2023-12-11 20:27:13 UTC</createdTime>
+<createdTime>2023-12-25 12:51:04 UTC</createdTime>
 <ownerDesignName>ui</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B9BE6755-DE12-76FC-6EFB-CE46E3BD4E4A"/>
+<colUsage columnID="804815C8-2F91-3A7B-8FE9-0B68A6CE9FD1"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

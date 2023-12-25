@@ -1,32 +1,23 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3AAAB114-C5D3-25D2-71BF-7A661D15D660" name="autori">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="847CDE8D-C9CA-D7B3-748F-A95AD32D9A7D" name="sekcije">
 <createdBy>ivana</createdBy>
-<createdTime>2023-12-11 20:25:14 UTC</createdTime>
+<createdTime>2023-12-25 12:48:59 UTC</createdTime>
 <ownerDesignName>ui</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="A0AB1573-7D8B-75DB-3E0C-F7D423BB3614">
+<Column name="id" id="77A636D3-A9C9-1919-1E63-33F7D5559CD4">
 <createdBy>ivana</createdBy>
-<createdTime>2023-12-11 20:26:10 UTC</createdTime>
+<createdTime>2023-12-25 12:49:39 UTC</createdTime>
 <ownerDesignName>ui</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ime" id="EDCF40B6-16D5-21A2-221F-0934CB3947CC">
+<Column name="naziv" id="5AAB6880-1FB5-C058-EC47-D85DFBB978FF">
 <createdBy>ivana</createdBy>
-<createdTime>2023-12-11 20:26:10 UTC</createdTime>
-<ownerDesignName>ui</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="biografija" id="CA1CFC80-CD2E-3C62-151C-754AC729D020">
-<createdBy>ivana</createdBy>
-<createdTime>2023-12-11 20:26:10 UTC</createdTime>
+<createdTime>2023-12-25 12:49:39 UTC</createdTime>
 <ownerDesignName>ui</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -35,15 +26,15 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="35B8B5CE-48F2-2B8C-0433-C8F40B7F6668" name="autor_PK">
+<ind_PK_UK id="D28A3AA5-AC2B-8755-49E2-33E7D062CBBA" name="sekcije_PK">
 <createdBy>ivana</createdBy>
-<createdTime>2023-12-11 20:26:10 UTC</createdTime>
+<createdTime>2023-12-25 12:49:39 UTC</createdTime>
 <ownerDesignName>ui</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A0AB1573-7D8B-75DB-3E0C-F7D423BB3614"/>
+<colUsage columnID="77A636D3-A9C9-1919-1E63-33F7D5559CD4"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B0BBFBDC-6DAE-069A-E1BB-9FB7F75CDBD2" name="primerci">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-25 12:39:57 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="5CB5E266-294D-0DC4-B622-AA21D7914361">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-25 12:40:34 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="izdanje" id="3B2F793F-9C0B-8F83-C5DB-564F7819D5C7">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-25 12:40:35 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="knjiga_id" id="AB12321A-4C5A-18A5-30D8-2509933F857B">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-25 12:45:13 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>371D3228-E4C1-EACF-3C73-0471DCE3E7E8</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="156D0D52-FA13-0EE7-78A4-2EA59AB95A62" referredColumn="371D3228-E4C1-EACF-3C73-0471DCE3E7E8"/>
+</associations>
+</Column>
+<Column name="sekcije_id" id="80DCDE53-AE94-E987-0BC3-4239DE2565A3">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-25 12:53:20 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>77A636D3-A9C9-1919-1E63-33F7D5559CD4</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9C455A10-C402-809B-D404-A15FB41FF93C" referredColumn="77A636D3-A9C9-1919-1E63-33F7D5559CD4"/>
+</associations>
+</Column>
+<Column name="citaonice_id" id="4C9AB6CC-542D-1940-7F32-1CAD9A05F5EB">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-25 12:54:19 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>539670DC-5F5C-156E-A126-5A2BCDFE0ED1</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3006A788-2A56-2955-705A-87BF17946809" referredColumn="539670DC-5F5C-156E-A126-5A2BCDFE0ED1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="37EF8F12-765D-DCC2-2A45-2A03D48FCA10" name="konkretna_knjiga_PK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-25 12:40:35 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CB5E266-294D-0DC4-B622-AA21D7914361"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F95EE2AB-75EA-8308-F87A-B756D7AD791E" name="primerak_knjiga_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-25 12:45:13 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB12321A-4C5A-18A5-30D8-2509933F857B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB6D7046-637A-08B3-4049-AB3EA6B3469C" name="primerci_sekcije_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-25 12:53:20 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80DCDE53-AE94-E987-0BC3-4239DE2565A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="017C9066-FF21-9477-69BA-F327089430D3" name="primerci_citaonice_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-25 12:54:19 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C9AB6CC-542D-1940-7F32-1CAD9A05F5EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

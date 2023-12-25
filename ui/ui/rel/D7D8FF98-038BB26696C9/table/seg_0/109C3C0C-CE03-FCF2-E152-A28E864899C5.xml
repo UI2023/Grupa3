@@ -1,79 +1,79 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9472DF1D-282E-3934-D7C5-992D02ADECB9" name="autor_knjiga">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="109C3C0C-CE03-FCF2-E152-A28E864899C5" name="finansije_stipendija">
 <createdBy>ivana</createdBy>
-<createdTime>2023-12-11 20:26:45 UTC</createdTime>
+<createdTime>2023-12-25 13:09:00 UTC</createdTime>
 <ownerDesignName>ui</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="C046939A-5EF9-792C-237E-3512C071A150">
+<Column name="id" id="DF3FC646-3FF1-C5BC-0498-7983462A83DE">
 <createdBy>ivana</createdBy>
-<createdTime>2023-12-11 20:27:06 UTC</createdTime>
+<createdTime>2023-12-25 13:09:37 UTC</createdTime>
 <ownerDesignName>ui</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="knjiga_id" id="B9BE6755-DE12-76FC-6EFB-CE46E3BD4E4A">
+<Column name="finansije_id" id="2B330B79-B396-55A9-4DCA-EAD1B750C7CB">
 <createdBy>ivana</createdBy>
-<createdTime>2023-12-11 20:27:13 UTC</createdTime>
+<createdTime>2023-12-25 13:09:49 UTC</createdTime>
 <ownerDesignName>ui</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
-<delegate>371D3228-E4C1-EACF-3C73-0471DCE3E7E8</delegate>
+<delegate>4AD071DD-A940-0630-E761-AE6C0FE7890A</delegate>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="CC5369CF-388D-C674-F63E-C773431BB848" referredColumn="371D3228-E4C1-EACF-3C73-0471DCE3E7E8"/>
+<colAssociation fkAssociation="AE1C7459-54B6-43A4-362F-04C4EFC286C0" referredColumn="4AD071DD-A940-0630-E761-AE6C0FE7890A"/>
 </associations>
 </Column>
-<Column name="autor_id" id="2561757C-82EA-1E79-F058-6F4F0BDFDA16">
+<Column name="stipendija_id" id="4CE7F3B2-B83F-4771-EFAD-7227696E1CA8">
 <createdBy>ivana</createdBy>
-<createdTime>2023-12-11 20:27:18 UTC</createdTime>
+<createdTime>2023-12-25 13:09:53 UTC</createdTime>
 <ownerDesignName>ui</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
-<delegate>A0AB1573-7D8B-75DB-3E0C-F7D423BB3614</delegate>
+<delegate>6FD12D12-B7C4-5E4A-9951-E19C6664BD1A</delegate>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="BE284FCB-4FC3-967F-0019-6D65F26400B8" referredColumn="A0AB1573-7D8B-75DB-3E0C-F7D423BB3614"/>
+<colAssociation fkAssociation="9B89355E-5B0E-5CE4-D7F0-511BC01FEC45" referredColumn="6FD12D12-B7C4-5E4A-9951-E19C6664BD1A"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="F228B2C4-D909-F328-7CB1-B33B43FACEF0" name="autor_knjiga_PK">
+<ind_PK_UK id="58E055E2-8C57-E0AA-9BB7-C2A308B38C85" name="finansije_stipendija_PK">
 <createdBy>ivana</createdBy>
-<createdTime>2023-12-11 20:27:06 UTC</createdTime>
+<createdTime>2023-12-25 13:09:37 UTC</createdTime>
 <ownerDesignName>ui</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C046939A-5EF9-792C-237E-3512C071A150"/>
+<colUsage columnID="DF3FC646-3FF1-C5BC-0498-7983462A83DE"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="F2ED7503-06A4-5BCE-1973-CD088096EA31" name="autor_knjiga_autor_FK">
+<ind_PK_UK id="7056C9A1-DC6C-1D76-8F98-91E69C66830A" name="finansije_stipendija_finansije_FK">
 <createdBy>ivana</createdBy>
-<createdTime>2023-12-11 20:27:18 UTC</createdTime>
+<createdTime>2023-12-25 13:09:49 UTC</createdTime>
 <ownerDesignName>ui</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="2561757C-82EA-1E79-F058-6F4F0BDFDA16"/>
+<colUsage columnID="2B330B79-B396-55A9-4DCA-EAD1B750C7CB"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D1598FA8-0A2E-AE3C-B4DC-2826AA32ECD6" name="autor_knjiga_knjiga_FK">
+<ind_PK_UK id="1A2181D9-8ECD-492E-9F51-3CCF277B1EBA" name="finansije_stipendija_stipendija_FK">
 <createdBy>ivana</createdBy>
-<createdTime>2023-12-11 20:27:13 UTC</createdTime>
+<createdTime>2023-12-25 13:09:53 UTC</createdTime>
 <ownerDesignName>ui</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B9BE6755-DE12-76FC-6EFB-CE46E3BD4E4A"/>
+<colUsage columnID="4CE7F3B2-B83F-4771-EFAD-7227696E1CA8"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

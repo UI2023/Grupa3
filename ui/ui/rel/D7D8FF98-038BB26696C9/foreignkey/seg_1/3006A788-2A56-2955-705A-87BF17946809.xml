@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="3006A788-2A56-2955-705A-87BF17946809" name="primerci_citaonice_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-25 12:54:19 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<containerWithKeyObject>B0BBFBDC-6DAE-069A-E1BB-9FB7F75CDBD2</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>017C9066-FF21-9477-69BA-F327089430D3</localFKIndex>
+<keyObject>C3E49459-E924-4E85-2DE1-F95A0BE96AAD</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

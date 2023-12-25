@@ -6,9 +6,9 @@
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="DEFF2EE6-0913-488F-741C-D54412FC076F">
+<Column name="id" directorySegmentName="seg_1" id="DEFF2EE6-0913-488F-741C-D54412FC076F">
 <createdBy>ivana</createdBy>
-<createdTime>2023-12-11 20:29:09 UTC</createdTime>
+<createdTime>2023-12-25 12:42:19 UTC</createdTime>
 <ownerDesignName>ui</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,9 +29,9 @@
 <colAssociation fkAssociation="D2FA11A5-29CE-3CCE-C912-E0A3DC0EDFBC" referredColumn="371D3228-E4C1-EACF-3C73-0471DCE3E7E8"/>
 </associations>
 </Column>
-<Column name="izdavac_id" id="3B91B646-C391-586D-9414-96B23077BC73">
+<Column name="izdavac_id" directorySegmentName="seg_1" id="3B91B646-C391-586D-9414-96B23077BC73">
 <createdBy>ivana</createdBy>
-<createdTime>2023-12-11 20:29:20 UTC</createdTime>
+<createdTime>2023-12-25 12:42:19 UTC</createdTime>
 <ownerDesignName>ui</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -47,23 +47,13 @@
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="A0C7726B-EA17-F4E1-6369-2F09EC695D1A" name="knjiga_izdavac_PK">
 <createdBy>ivana</createdBy>
-<createdTime>2023-12-11 20:29:09 UTC</createdTime>
+<createdTime>2023-12-25 12:42:19 UTC</createdTime>
 <ownerDesignName>ui</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="DEFF2EE6-0913-488F-741C-D54412FC076F"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="8AFF73B4-E59E-2E4A-8A78-0E2FF5858449" name="knjiga_izdavac_knjiga_FK">
-<createdBy>ivana</createdBy>
-<createdTime>2023-12-11 20:29:16 UTC</createdTime>
-<ownerDesignName>ui</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="808E3CDF-7DB7-D826-F1BC-335248D67045"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="B8F33C9B-7A24-2384-A292-A868AA8EBE2E" name="knjiga_izdavac_izdavac_FK">
@@ -74,6 +64,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="3B91B646-C391-586D-9414-96B23077BC73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8AFF73B4-E59E-2E4A-8A78-0E2FF5858449" name="knjiga_izdavac_knjiga_FK">
+<createdBy>ivana</createdBy>
+<createdTime>2023-12-11 20:29:16 UTC</createdTime>
+<ownerDesignName>ui</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="808E3CDF-7DB7-D826-F1BC-335248D67045"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,73 +1,73 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A75549AC-43EB-119A-B8D6-6CBB280147A1" name="knjige">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5195B9F1-ADDD-74CA-F05C-B9A972EF6121" name="stipendija">
 <createdBy>ivana</createdBy>
-<createdTime>2023-12-11 20:21:39 UTC</createdTime>
+<createdTime>2023-12-25 13:05:30 UTC</createdTime>
 <ownerDesignName>ui</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="371D3228-E4C1-EACF-3C73-0471DCE3E7E8">
+<Column name="id" id="6FD12D12-B7C4-5E4A-9951-E19C6664BD1A">
 <createdBy>ivana</createdBy>
-<createdTime>2023-12-11 20:22:57 UTC</createdTime>
+<createdTime>2023-12-25 13:06:47 UTC</createdTime>
 <ownerDesignName>ui</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="naziv" id="3ED5394C-E824-5569-8A25-AAE981987093">
+<Column name="naziv" id="0873D149-C1D1-7F93-8F5B-4F06C5DEF632">
 <createdBy>ivana</createdBy>
-<createdTime>2023-12-11 20:22:57 UTC</createdTime>
+<createdTime>2023-12-25 13:06:47 UTC</createdTime>
 <ownerDesignName>ui</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="godina_izdavanja" id="7349741D-876C-DC90-FE2B-DF1BE5C31E49">
+<Column name="iznos" id="5CE42335-BE07-F18A-3DCA-85CF37E9310C">
 <createdBy>ivana</createdBy>
-<createdTime>2023-12-11 20:22:57 UTC</createdTime>
+<createdTime>2023-12-25 13:06:47 UTC</createdTime>
 <ownerDesignName>ui</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="tip_knjige_id" id="34B9D7C2-1BDD-E4B1-7CC7-9937C6F02762">
+<Column name="uslov_stipendije_id" id="CEA83B2E-7D3C-BA60-5B6B-3E1B36033F48">
 <createdBy>ivana</createdBy>
-<createdTime>2023-12-11 20:31:39 UTC</createdTime>
+<createdTime>2023-12-25 13:07:49 UTC</createdTime>
 <ownerDesignName>ui</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
-<delegate>BFFBBB0D-0E9C-2641-E1EE-99BF65994A36</delegate>
+<delegate>8CE9AE38-5057-20A1-237C-581D0897C0E2</delegate>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="00154B9D-6327-A708-0F41-7B6C0A4B56AC" referredColumn="BFFBBB0D-0E9C-2641-E1EE-99BF65994A36"/>
+<colAssociation fkAssociation="A50DC54F-CFB4-AB73-8E18-DEA60996F6F1" referredColumn="8CE9AE38-5057-20A1-237C-581D0897C0E2"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="3557F413-4993-7E05-1DAF-82AB3A2197C8" name="knjiga_PK">
+<ind_PK_UK id="091287DB-626A-C46B-098E-DCC52D049533" name="stipendija_PK">
 <createdBy>ivana</createdBy>
-<createdTime>2023-12-11 20:22:57 UTC</createdTime>
+<createdTime>2023-12-25 13:06:47 UTC</createdTime>
 <ownerDesignName>ui</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="371D3228-E4C1-EACF-3C73-0471DCE3E7E8"/>
+<colUsage columnID="6FD12D12-B7C4-5E4A-9951-E19C6664BD1A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FF855CF9-EA27-996A-56BC-E9B7B9577D33" name="knjiga_tip_knjige_FK">
+<ind_PK_UK id="87499F30-E52D-B3CB-50DF-C48F2AA26816" name="stipendija_uslov_stipendije_FK">
 <createdBy>ivana</createdBy>
-<createdTime>2023-12-11 20:31:39 UTC</createdTime>
+<createdTime>2023-12-25 13:07:49 UTC</createdTime>
 <ownerDesignName>ui</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="34B9D7C2-1BDD-E4B1-7CC7-9937C6F02762"/>
+<colUsage columnID="CEA83B2E-7D3C-BA60-5B6B-3E1B36033F48"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
